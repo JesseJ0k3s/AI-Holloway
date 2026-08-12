@@ -1,0 +1,19 @@
+{
+  "ad_id": "8c786c86000d",
+  "brand": "lululemon",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "ABC Relaxed-Fit Trouser 32L Corduroy",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

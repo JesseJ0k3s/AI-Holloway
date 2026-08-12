@@ -29,6 +29,64 @@ Open `data/capture.csv` in Excel, Numbers, or Google Sheets. Delete the example 
    your browser's address bar after clicking into the creative.
 5. Paste one row per ad into `data/capture.csv`.
 
+---
+
+## Field notes from the first capture run
+
+These were learned the hard way on 2026-08-12. They will save you an hour.
+
+### Skip the search — go straight to the ad grid
+
+The filters are URL parameters, so you can bookmark a brand's text ads directly:
+
+```
+https://adstransparency.google.com/advertiser/<ADVERTISER_ID>?region=US&format=TEXT
+```
+
+Confirmed advertiser IDs (verified as the correct US-serving entity):
+
+| Brand | Advertiser ID | Volume |
+|---|---|---|
+| lululemon | `AR01614014350098432001` | ~5K text ads |
+| Vuori | `AR04810021938799837185` | ~2K ads |
+
+To find the rest: search the brand, click the right result, and read the ID out of the
+address bar. Add it to this table so nobody repeats the lookup.
+
+### ⚠️ Picking the wrong advertiser entity is the #1 way to corrupt this dataset
+
+Big brands have **many** advertiser accounts, and the top search result is frequently
+the wrong one. Real examples hit during setup:
+
+- Searching `Alo Yoga` returned **Alo Yoga México** first — Mexico-based, wrong market.
+- Searching `Nike` returns `Nike, Inc.` flagged *"Multiple advertiser accounts have a
+  similar name."*
+- lululemon's main entity is **lululemon athletica canada inc.** (Vancouver HQ) — a
+  Canadian legal entity that is nonetheless the right one for US-served ads.
+
+**Before you capture, check the "Based in" line and the ad count.** The right entity is
+almost always the one with by far the most ads. `Based in` is where the *company* is
+registered, not where the ads run — the `region=US` filter is what controls that.
+
+### Selecting the ad text: you have an advantage over automation
+
+Ad creatives render inside sandboxed cross-origin iframes, so no script can read them —
+but **you can still select the text with your mouse and copy it.** That gives you exact
+verbatim copy with zero retyping. Use it. Do not retype ads by hand and do not transcribe
+them from a screenshot; both introduce silent errors, and `claim_verbatim` has to be an
+exact substring or the extraction quietly degrades.
+
+### Make the window tall
+
+The grid is virtualized and awkward to scroll. Maximize the window (or make it very
+tall) and you can see 15–20 ads at once, which makes the copy-paste loop much faster.
+
+### What "~5K ads" means
+
+That count is all creatives ever recorded, not what's live today. The grid loads ~40–80
+at a time. Take the first 8–12 readable text ads per brand and move on — you are
+sampling the messaging, not auditing the account.
+
 Then:
 
 ```bash

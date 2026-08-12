@@ -1,0 +1,22 @@
+{
+  "ad_id": "6b97f1015257",
+  "brand": "lululemon",
+  "primary_claim_territory": "unclassified",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "The Like New Resale Shop - New Life For Gently Used Gear",
+  "audiences": [
+    "women_explicit",
+    "men_explicit"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.1,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

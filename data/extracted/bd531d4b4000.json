@@ -1,0 +1,21 @@
+{
+  "ad_id": "bd531d4b4000",
+  "brand": "lululemon",
+  "primary_claim_territory": "unclassified",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Plus Size Women's Clothing - lululemon® Plus Size Clothing",
+  "audiences": [
+    "women_explicit"
+  ],
+  "proof_points": [
+    "free_returns_shipping"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.1,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

@@ -1,0 +1,21 @@
+{
+  "ad_id": "6cb0b9c641a9",
+  "brand": "lululemon",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [
+    "style_versatility"
+  ],
+  "claim_verbatim": "lululemon® Official Site - Strappy Sports Bras Are In",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}
