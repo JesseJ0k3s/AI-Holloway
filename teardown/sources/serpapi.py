@@ -51,6 +51,33 @@ from ..taxonomy import BRANDS, canonical_brand
 
 BASE = "https://serpapi.com/search.json"
 
+# SerpApi wants numeric region codes here, not ISO country codes -- passing
+# "US" returns HTTP 400 "Unsupported `US` region parameter."
+# Full list: https://serpapi.com/google-ads-transparency-center-regions
+REGION_CODES = {
+    "US": "2840",
+    "CA": "2124",
+    "GB": "2826",
+    "UK": "2826",
+    "AU": "2036",
+    "DE": "2276",
+}
+
+
+def region_code(region: str) -> str:
+    """Accept either 'US' or a raw numeric code."""
+    r = (region or "US").strip()
+    if r.isdigit():
+        return r
+    code = REGION_CODES.get(r.upper())
+    if not code:
+        raise SystemExit(
+            "Unknown region %r. Use a code from "
+            "https://serpapi.com/google-ads-transparency-center-regions "
+            "(US = 2840), or add it to REGION_CODES." % region
+        )
+    return code
+
 CACHE_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
     "data",
@@ -118,6 +145,7 @@ def fetch(
         )
 
     targets = brands or list(BRANDS.keys())
+    rcode = region_code(region)
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     out: List[Ad] = []
 
@@ -127,7 +155,7 @@ def fetch(
         # Step 1 -- list this advertiser's text creatives.
         params = {
             "engine": "google_ads_transparency_center",
-            "region": region,
+            "region": rcode,
             "creative_format": "text",
             "api_key": key,
         }
@@ -159,7 +187,7 @@ def fetch(
                     "engine": "google_ads_transparency_center_ad_details",
                     "advertiser_id": aid,
                     "creative_id": cid,
-                    "region": region,
+                    "region": rcode,
                     "api_key": key,
                 },
                 use_cache=use_cache,
@@ -186,25 +214,53 @@ def _to_ad(
     creative_id: str,
     captured_at: str,
 ) -> Optional[Ad]:
-    """Merge listing metadata + detail copy into one Ad."""
-    d = detail.get("ad_details") or detail
+    """Merge listing metadata + detail copy into one Ad.
 
-    headline = _first(d, ["headline", "title", "long_headline"])
-    body = _first(d, ["snippet", "description", "body"])
+    The details endpoint returns `ad_creatives` as a list of VARIANTS of the
+    same ad. Most variants are image-only ({"image": ...}); the useful ones
+    carry `title` + `snippet`. Roughly half of all creatives yield no text at
+    all -- those are dropped rather than guessed at.
 
-    # Sitelink text is real ad copy too and often carries the proof points.
-    extras = []
-    for k in ("sitelink_texts", "sitelink_descriptions"):
-        v = d.get(k)
-        if isinstance(v, list):
-            extras.extend(str(x) for x in v if x)
-    if extras:
-        body = (body + " " + " ".join(extras)).strip()
+    Note `title` is the advertiser display name ("lululemon"), not the search
+    headline you see on the Transparency Center page. The actual claim lives in
+    `snippet`, which is what the extraction cares about.
+    """
+    variants = detail.get("ad_creatives") or []
+    if isinstance(variants, dict):
+        variants = [variants]
 
-    if not headline and not body:
-        return None  # nothing readable; an image with no copy tells us nothing
+    title = ""
+    snippets: List[str] = []
+    visible_link = ""
+    for v in variants:
+        if not isinstance(v, dict):
+            continue
+        s = (v.get("snippet") or "").strip()
+        if s and s not in snippets:
+            snippets.append(s)
+        if not title:
+            title = (v.get("title") or "").strip()
+        if not visible_link:
+            visible_link = (v.get("visible_link") or "").strip()
+        # Sitelinks are real ad copy too and often carry the proof points.
+        for k in ("sitelink_texts", "sitelink_descriptions"):
+            extra = v.get(k)
+            if isinstance(extra, list):
+                for x in extra:
+                    x = str(x).strip()
+                    if x and x not in snippets:
+                        snippets.append(x)
 
-    advertiser = listing_row.get("advertiser") or d.get("advertiser") or brand
+    headline = title
+    body = " ".join(snippets).strip()
+
+    if not body:
+        return None  # image-only creative: tells us nothing about messaging
+
+    info = detail.get("search_information") or {}
+    advertiser = (
+        listing_row.get("advertiser") or info.get("ad_funded_by") or brand
+    )
 
     return Ad(
         brand=canonical_brand(advertiser) if advertiser else brand,
@@ -213,8 +269,8 @@ def _to_ad(
         body=body,
         ad_id=creative_id,
         advertiser_id=advertiser_id,
-        cta=_first(d, ["call_to_action"]) or None,
-        landing_url=_first(d, ["visible_link", "link"]) or listing_row.get("target_domain"),
+        cta=None,
+        landing_url=visible_link or listing_row.get("target_domain"),
         creative_type="text",
         media_url=listing_row.get("image"),
         first_seen=_ts(listing_row.get("first_shown")),

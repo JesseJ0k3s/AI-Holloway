@@ -1,0 +1,48 @@
+{
+  "search_metadata": {
+    "id": "6a7cfba1ff596e0ed67963b5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/jGI5tsLiGcpGcTILevIacw/6a7cfba1ff596e0ed67963b5.json",
+    "created_at": "2026-08-12 23:02:57 UTC",
+    "processed_at": "2026-08-12 23:02:57 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR08324235047347421185?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/jGI5tsLiGcpGcTILevIacw/6a7cfba1ff596e0ed67963b5.html",
+    "prettify_html_file": "https://serpapi.com/searches/jGI5tsLiGcpGcTILevIacw/6a7cfba1ff596e0ed67963b5.prettify",
+    "total_time_taken": 0.82
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01614014350098432001",
+    "creative_id": "CR08324235047347421185",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573632,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01614014350098432001?region=US",
+    "ad_funded_by": "lululemon athletica canada inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12269841933419592513"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12269841933419592513"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12269841933419592513"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12269841933419592513"
+    }
+  ]
+}
