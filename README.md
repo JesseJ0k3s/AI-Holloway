@@ -124,7 +124,7 @@ The rule that makes this work: **nobody edits the same file.** The schema is fro
 first, everyone codes against it, and integration is nearly free.
 
 ```bash
-git clone https://github.com/<your-org>/ai-holloway.git
+git clone https://github.com/JesseJ0k3s/AI-Holloway.git
 ```
 
 ```bash
