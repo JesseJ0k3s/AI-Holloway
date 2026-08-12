@@ -1,0 +1,62 @@
+{
+  "search_metadata": {
+    "id": "6a7cffff3ee4c2286f23db18",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/0ewVPliygPwnUr1YgA9d8g/6a7cffff3ee4c2286f23db18.json",
+    "created_at": "2026-08-12 23:21:35 UTC",
+    "processed_at": "2026-08-12 23:21:35 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR04120695235573448705?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/0ewVPliygPwnUr1YgA9d8g/6a7cffff3ee4c2286f23db18.html",
+    "prettify_html_file": "https://serpapi.com/searches/0ewVPliygPwnUr1YgA9d8g/6a7cffff3ee4c2286f23db18.prettify",
+    "total_time_taken": 3.19
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16916677161513910273",
+    "creative_id": "CR04120695235573448705",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573409,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16916677161513910273?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8077607644901141651"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8077607644901141651"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8077607644901141651"
+    },
+    {
+      "title": "Under Armour Factory House",
+      "snippet": "Everything You Need. Nothing You Don't",
+      "visible_link": "underarmour.com",
+      "advertiser_name": "Under Armour",
+      "address": "651 Kapkowski Road Space 1250, Elizabeth, New Jersey, 07201, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipPRxUSmLHg441K7fpsAhBnCMj9RA7spz510pfsE=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNLE_Cu1LcCB4cahs2tzcqy9OKvrSwpGlUYP42T=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipP9sCsB4LZtkSZqqdFHPJe-DfB53IZnfdIeGP3Z=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPbz3tCPMisnIcnDDbKzJUTRdDfgYV0grSFN1H6=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMQA5l5TOorRRjnwu2gBVk_v8-qP1cqIPu4zaEh=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMeJlPNXAZAd4tw-SBATjqp6VfzHdpV6PwldaaM=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPhBG_55RT6ivd_X-n6UydEROF_57Zfi3DXagtt=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPT-b6QgSzruwVKRs__jXo9c2zDRn5Z_7s6zU43=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOuny_BLd1vXhe66WHEezgS97xcLHc2LNLn1cUW=k-no-"
+      ]
+    }
+  ]
+}

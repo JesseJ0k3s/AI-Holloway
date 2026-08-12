@@ -1,0 +1,24 @@
+{
+  "ad_id": "4aa599462a32",
+  "brand": "Gymshark",
+  "primary_claim_territory": "convenience_service",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Gymshark Official Store - Gym Clothes Store",
+  "audiences": [
+    "runners",
+    "strength_gym"
+  ],
+  "proof_points": [
+    "free_returns_shipping"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

@@ -1,0 +1,25 @@
+{
+  "ad_id": "CR05269307573722415105",
+  "brand": "Under Armour",
+  "primary_claim_territory": "price_value",
+  "secondary_claim_territories": [
+    "newness_seasonal",
+    "performance"
+  ],
+  "claim_verbatim": "",
+  "audiences": [
+    "women_explicit",
+    "men_explicit"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

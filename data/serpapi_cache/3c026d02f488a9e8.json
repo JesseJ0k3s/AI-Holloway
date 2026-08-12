@@ -1,0 +1,56 @@
+{
+  "search_metadata": {
+    "id": "6a7cffeb3d0e4efc54763970",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/qYg2Oa53nlK3Ca8Du9ZCpg/6a7cffeb3d0e4efc54763970.json",
+    "created_at": "2026-08-12 23:21:15 UTC",
+    "processed_at": "2026-08-12 23:21:15 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR02537979033715474433?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/qYg2Oa53nlK3Ca8Du9ZCpg/6a7cffeb3d0e4efc54763970.html",
+    "prettify_html_file": "https://serpapi.com/searches/qYg2Oa53nlK3Ca8Du9ZCpg/6a7cffeb3d0e4efc54763970.prettify",
+    "total_time_taken": 2.54
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16916677161513910273",
+    "creative_id": "CR02537979033715474433",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573769,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16916677161513910273?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/4163392504851080988"
+    },
+    {
+      "title": "Under Armour Factory House",
+      "snippet": "Designed By Those Who Know Your Sport. Shop The Latest Under Armour® Sandals Today",
+      "visible_link": "underarmour.com",
+      "advertiser_name": "Under Armour",
+      "address": "820 West Stacy Road Suite # 518, Allen, Texas, 75013, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipN8XxwRoeQbm-uac3za8LssVacCMpKUlSPUYSw3=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNMgHEuC-8lN7JX9kyluXLK7GbimT2zTq_RoZfY=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOnvQ4lcoIEFE_RzgidKWv8zlRe26gP4y7LWTz5=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMLrQPiSVdu4bxhnVPfcq-g2vobMwypcWClEfnP=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOFhVjnMbhDzodNoYyH-rZmZiQeVR46-6KghEqu=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNj2kyKHh1M-rq9kv3X3ReQ9KZ4mjvKFu5ka_-i=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOGP2ys-nZTH7yUBp5nCTkXJatPRzIv_YLNJKab=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOgKRXQ7yqNZOig6AG2GtBsW2LpIxyvwbPgmItu=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOMpFVut7wsur8FOGRQDZjCn4_0w3dpUVRiy6qL=k-no-"
+      ]
+    }
+  ]
+}

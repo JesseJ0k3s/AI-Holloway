@@ -1,0 +1,21 @@
+{
+  "ad_id": "CR12260659916586352641",
+  "brand": "Fabletics",
+  "primary_claim_territory": "price_value",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Savage X Fenty",
+  "audiences": [
+    "value_seekers"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

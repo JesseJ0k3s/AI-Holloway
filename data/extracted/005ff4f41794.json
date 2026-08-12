@@ -1,0 +1,19 @@
+{
+  "ad_id": "005ff4f41794",
+  "brand": "Gymshark",
+  "primary_claim_territory": "style_versatility",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Socks Are We Supposed To Be Wearing? The Great Gen Z Debate",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

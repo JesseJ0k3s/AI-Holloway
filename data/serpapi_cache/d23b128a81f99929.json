@@ -1,0 +1,68 @@
+{
+  "search_metadata": {
+    "id": "6a7d003f9d26cf6d54820afb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/NOMM59vlwn4c4y2puOMOxw/6a7d003f9d26cf6d54820afb.json",
+    "created_at": "2026-08-12 23:22:39 UTC",
+    "processed_at": "2026-08-12 23:22:39 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR12363107049943334913?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/NOMM59vlwn4c4y2puOMOxw/6a7d003f9d26cf6d54820afb.html",
+    "prettify_html_file": "https://serpapi.com/searches/NOMM59vlwn4c4y2puOMOxw/6a7d003f9d26cf6d54820afb.prettify",
+    "total_time_taken": 6.82
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR12363107049943334913",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786523211,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20250921,
+        "last_shown": 20260714
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20250920,
+        "last_shown": 20260718
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20251024,
+        "last_shown": 20260705
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/3528236419947796893"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/3528236419947796893"
+    },
+    {
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx"
+    }
+  ]
+}

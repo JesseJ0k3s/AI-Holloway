@@ -1,0 +1,23 @@
+{
+  "ad_id": "9622caed7f9a",
+  "brand": "Gymshark",
+  "primary_claim_territory": "community_identity",
+  "secondary_claim_territories": [
+    "style_versatility"
+  ],
+  "claim_verbatim": "The Perfect Gym Styles - We're The Gymwear Brand - Gymshark",
+  "audiences": [
+    "strength_gym"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cff2e4a0898a3dcbbf74e",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/5Ml1bTa6cjgvRGbmE5qArw/6a7cff2e4a0898a3dcbbf74e.json",
+    "created_at": "2026-08-12 23:18:06 UTC",
+    "processed_at": "2026-08-12 23:18:06 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR05625435979755028481?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/5Ml1bTa6cjgvRGbmE5qArw/6a7cff2e4a0898a3dcbbf74e.html",
+    "prettify_html_file": "https://serpapi.com/searches/5Ml1bTa6cjgvRGbmE5qArw/6a7cff2e4a0898a3dcbbf74e.prettify",
+    "total_time_taken": 2.65
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR05625435979755028481",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786539125,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17996552375527999185"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17996552375527999185"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17996552375527999185"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Vuori® Performance Apparel. Built To Move In. Styled For Life.™",
+      "visible_link": "vuoriclothing.com",
+      "address": "166 Main Street, Westport, Connecticut, 06880, US"
+    }
+  ]
+}

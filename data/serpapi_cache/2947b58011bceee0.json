@@ -1,0 +1,52 @@
+{
+  "search_metadata": {
+    "id": "6a7cff940e4be0dcc69fb543",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/AGlRoVvwpM8oB-jCISaXfw/6a7cff940e4be0dcc69fb543.json",
+    "created_at": "2026-08-12 23:19:48 UTC",
+    "processed_at": "2026-08-12 23:19:48 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR03732794912047890433?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/AGlRoVvwpM8oB-jCISaXfw/6a7cff940e4be0dcc69fb543.html",
+    "prettify_html_file": "https://serpapi.com/searches/AGlRoVvwpM8oB-jCISaXfw/6a7cff940e4be0dcc69fb543.prettify",
+    "total_time_taken": 7.41
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16735076323512287233",
+    "creative_id": "CR03732794912047890433",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786575212,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16735076323512287233?region=US",
+    "ad_funded_by": "Nike, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10606944951155813484"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10606944951155813484"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10606944951155813484"
+    },
+    {
+      "title": "Nike Mountain View Village",
+      "snippet": "Use promo code DAYONE to get an extra 25% off on select styles.",
+      "visible_link": "nike.com",
+      "advertiser_name": "Nike",
+      "address": "13348 Teal Ridge Way Suite N-140, Riverton, Utah, 84096, US"
+    }
+  ]
+}

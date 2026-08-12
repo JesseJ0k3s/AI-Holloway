@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7d00ada39c280b13e7c9a2",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/mn3KaJGgJMo-WxuFc_629w/6a7d00ada39c280b13e7c9a2.json",
+    "created_at": "2026-08-12 23:24:29 UTC",
+    "processed_at": "2026-08-12 23:24:29 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR04218662915609198593?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/mn3KaJGgJMo-WxuFc_629w/6a7d00ada39c280b13e7c9a2.html",
+    "prettify_html_file": "https://serpapi.com/searches/mn3KaJGgJMo-WxuFc_629w/6a7d00ada39c280b13e7c9a2.prettify",
+    "total_time_taken": 2.7
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR03556834903704207361",
+    "creative_id": "CR04218662915609198593",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572970,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR03556834903704207361?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1738964083491748998"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1738964083491748998"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1738964083491748998"
+    },
+    {
+      "title": "Fabletics",
+      "snippet": "Become a VIP member for exclusive deals on men’s activewear & apparel, plus monthly drops",
+      "visible_link": "fabletics.com",
+      "advertiser_name": "Fabletics",
+      "address": "278 Bellevue Square Level C, Bellevue, Washington, 98004, US"
+    }
+  ]
+}

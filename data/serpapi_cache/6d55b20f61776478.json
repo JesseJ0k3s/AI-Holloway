@@ -1,0 +1,74 @@
+{
+  "search_metadata": {
+    "id": "6a7cffcbf680d1c8970b9ae5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/EvYbrM0O_uPxDMOTwg-2cA/6a7cffcbf680d1c8970b9ae5.json",
+    "created_at": "2026-08-12 23:20:43 UTC",
+    "processed_at": "2026-08-12 23:20:43 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR05779723205165973505?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/EvYbrM0O_uPxDMOTwg-2cA/6a7cffcbf680d1c8970b9ae5.html",
+    "prettify_html_file": "https://serpapi.com/searches/EvYbrM0O_uPxDMOTwg-2cA/6a7cffcbf680d1c8970b9ae5.prettify",
+    "total_time_taken": 5.29
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01566006373894848513",
+    "creative_id": "CR05779723205165973505",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572604,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01566006373894848513?region=US",
+    "ad_funded_by": "On AG",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/5211592212128373792"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/5211592212128373792"
+    },
+    {
+      "title": "On Store LA Abbot Kinney",
+      "snippet": "Con CloudTec® en espuma Zero-Gravity para aterrizajes suaves y amortiguados.",
+      "visible_link": "on.com",
+      "address": "1424 Abbot Kinney Blvd, Venice, CA, 90291, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOfw1hrk-h7irV54d3Xx2OB7jDE0e3rN8o6A5CF=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOg9kIs-eo5Ucpgc9AslKKtnWl6d7xAhtWkgPyA=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNN97wOtBYX9QVeUhxfUNX9hA3RUkaJ8ueW2Ext=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipP1c7QMLvZqRJM_cRqzkkFcIUO0h8Ghpb6xz9CJ=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipO6v7K_ksGIfbBiHDKzcThM34ycA0LqY3mTM_VB=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPuHxuAjr9vVlfY7HyQChRsHwlLeRhYOcSk-Z47=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipP3kEDNiAhZjPQFql_Xf7HUKrZE6xd9ofQXGO_e=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPnTNSYr1B3WdeKSejrPkiJ4tniOjfw0Oii_wxu=k-no-"
+      ]
+    },
+    {
+      "title": "On Store LA Abbot Kinney",
+      "snippet": "Con CloudTec® en espuma Zero-Gravity para aterrizajes suaves y amortiguados.",
+      "visible_link": "on.com",
+      "address": "1424 Abbot Kinney Blvd, Venice, CA, 90291, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipOfw1hrk-h7irV54d3Xx2OB7jDE0e3rN8o6A5CF=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOg9kIs-eo5Ucpgc9AslKKtnWl6d7xAhtWkgPyA=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNN97wOtBYX9QVeUhxfUNX9hA3RUkaJ8ueW2Ext=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipP1c7QMLvZqRJM_cRqzkkFcIUO0h8Ghpb6xz9CJ=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipO6v7K_ksGIfbBiHDKzcThM34ycA0LqY3mTM_VB=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPuHxuAjr9vVlfY7HyQChRsHwlLeRhYOcSk-Z47=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipP3kEDNiAhZjPQFql_Xf7HUKrZE6xd9ofQXGO_e=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPnTNSYr1B3WdeKSejrPkiJ4tniOjfw0Oii_wxu=k-no-"
+      ]
+    }
+  ]
+}

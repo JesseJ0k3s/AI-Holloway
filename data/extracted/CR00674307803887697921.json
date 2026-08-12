@@ -1,0 +1,21 @@
+{
+  "ad_id": "CR00674307803887697921",
+  "brand": "New Balance",
+  "primary_claim_territory": "style_versatility",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "New Balance Bethesda Row",
+  "audiences": [
+    "women_explicit"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

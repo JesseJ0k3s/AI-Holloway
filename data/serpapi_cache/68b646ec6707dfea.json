@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7d00515e3494308e4b9efe",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/CtUZnq5IAxTpfXkG6D7wmA/6a7d00515e3494308e4b9efe.json",
+    "created_at": "2026-08-12 23:22:57 UTC",
+    "processed_at": "2026-08-12 23:22:57 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR13494478831020408833/creative/CR18411344867356573697?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/CtUZnq5IAxTpfXkG6D7wmA/6a7d00515e3494308e4b9efe.html",
+    "prettify_html_file": "https://serpapi.com/searches/CtUZnq5IAxTpfXkG6D7wmA/6a7d00515e3494308e4b9efe.prettify",
+    "total_time_taken": 2.86
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR13494478831020408833",
+    "creative_id": "CR18411344867356573697",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573573,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR13494478831020408833?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2898053727123714494"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2898053727123714494"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2898053727123714494"
+    },
+    {
+      "title": "Patagonia",
+      "snippet": "Synthetic Insulation Nano Puff® Jackets & Vests for Packable, Easy-Layering Warmth.",
+      "visible_link": "patagonia.com",
+      "advertiser_name": "Patagonia",
+      "address": "426 Columbus Avenue, New York, New York, 10024, US"
+    }
+  ]
+}

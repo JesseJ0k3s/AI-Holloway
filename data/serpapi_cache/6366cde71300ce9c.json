@@ -1,0 +1,311 @@
+{
+  "search_metadata": {
+    "id": "6a7d004641ffc8be8b172ce5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/85QfwlvKeNRl7Oa8jV28EQ/6a7d004641ffc8be8b172ce5.json",
+    "created_at": "2026-08-12 23:22:46 UTC",
+    "processed_at": "2026-08-12 23:22:46 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR06842778575007907841?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/85QfwlvKeNRl7Oa8jV28EQ/6a7d004641ffc8be8b172ce5.html",
+    "prettify_html_file": "https://serpapi.com/searches/85QfwlvKeNRl7Oa8jV28EQ/6a7d004641ffc8be8b172ce5.prettify",
+    "total_time_taken": 2.85
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR06842778575007907841",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786514090,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2702,
+        "region_name": "Singapore",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20250920,
+        "last_shown": 20260811,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2428,
+        "region_name": "Latvia",
+        "first_shown": 20251104,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20250929,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2376,
+        "region_name": "Israel",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2100,
+        "region_name": "Bulgaria",
+        "first_shown": 20250920,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20250930,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "first_shown": 20251002,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20250921,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2703,
+        "region_name": "Slovakia",
+        "first_shown": 20251005,
+        "last_shown": 20260810
+      },
+      {
+        "region": 2076,
+        "region_name": "Brazil",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2470,
+        "region_name": "Malta",
+        "first_shown": 20251006,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2158,
+        "region_name": "Taiwan",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20250921,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2705,
+        "region_name": "Slovenia",
+        "first_shown": 20251014,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "first_shown": 20250919,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "first_shown": 20251103,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20250919,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2442,
+        "region_name": "Luxembourg",
+        "first_shown": 20250921,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20251002,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "first_shown": 20251015,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2233,
+        "region_name": "Estonia",
+        "first_shown": 20251111,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2032,
+        "region_name": "Argentina",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2458,
+        "region_name": "Malaysia",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2356,
+        "region_name": "India",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20250921,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2410,
+        "region_name": "South Korea",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20250920,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2392,
+        "region_name": "Japan",
+        "last_shown": 20260720
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "first_shown": 20250921,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2203,
+        "region_name": "Czechia",
+        "first_shown": 20251103,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2036,
+        "region_name": "Australia",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2764,
+        "region_name": "Thailand",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20250920,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2040,
+        "region_name": "Austria",
+        "first_shown": 20251106,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2826,
+        "region_name": "United Kingdom",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "first_shown": 20250920,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "first_shown": 20250921,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2246,
+        "region_name": "Finland",
+        "first_shown": 20251009,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2642,
+        "region_name": "Romania",
+        "first_shown": 20250919,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2156,
+        "region_name": "China",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2484,
+        "region_name": "Mexico",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2792,
+        "region_name": "Turkiye",
+        "first_shown": 20250919,
+        "last_shown": 20260811,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2440,
+        "region_name": "Lithuania",
+        "first_shown": 20251002,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2344,
+        "region_name": "Hong Kong",
+        "last_shown": 20260811
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "title": "Arc'teryx Piccadilly London Store",
+      "snippet": "Optimized for temperature control, breathability, and warmth in transitioning weather.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "212 Piccadilly, London, W1J 9HL, GB"
+    },
+    {
+      "title": "Arc'teryx Covent Garden",
+      "snippet": "Optimized for temperature control, breathability, and warmth in transitioning weather.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "41-42 King Street, London, WC2E 8JS, GB"
+    }
+  ]
+}

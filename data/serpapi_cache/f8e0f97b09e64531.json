@@ -1,0 +1,225 @@
+{
+  "search_metadata": {
+    "id": "6a7d0035af5fdced4031ddf8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/zoob8liJrSJGk-VFeJQL9A/6a7d0035af5fdced4031ddf8.json",
+    "created_at": "2026-08-12 23:22:29 UTC",
+    "processed_at": "2026-08-12 23:22:29 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR17292257422890500097?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/zoob8liJrSJGk-VFeJQL9A/6a7d0035af5fdced4031ddf8.html",
+    "prettify_html_file": "https://serpapi.com/searches/zoob8liJrSJGk-VFeJQL9A/6a7d0035af5fdced4031ddf8.prettify",
+    "total_time_taken": 2.84
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR17292257422890500097",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786530769,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "first_shown": 20260118,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20260108,
+        "last_shown": 20260812,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2203,
+        "region_name": "Czechia",
+        "first_shown": 20260113,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20260109,
+        "last_shown": 20260812,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20260112,
+        "last_shown": 20260731
+      },
+      {
+        "region": 2040,
+        "region_name": "Austria",
+        "first_shown": 20260112,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "first_shown": 20260118,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "first_shown": 20260109,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2246,
+        "region_name": "Finland",
+        "first_shown": 20260111,
+        "last_shown": 20260810
+      },
+      {
+        "region": 2642,
+        "region_name": "Romania",
+        "first_shown": 20260112,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "first_shown": 20260112,
+        "last_shown": 20260720
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20260112,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2440,
+        "region_name": "Lithuania",
+        "first_shown": 20260110,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2705,
+        "region_name": "Slovenia",
+        "first_shown": 20260118,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "first_shown": 20260110,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20260109,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20260112,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2100,
+        "region_name": "Bulgaria",
+        "first_shown": 20260112,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2703,
+        "region_name": "Slovakia",
+        "first_shown": 20260127,
+        "last_shown": 20260717
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "first_shown": 20260112,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20260108,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2428,
+        "region_name": "Latvia",
+        "first_shown": 20260108,
+        "last_shown": 20260717
+      },
+      {
+        "region": 2032,
+        "region_name": "Argentina",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2442,
+        "region_name": "Luxembourg",
+        "first_shown": 20260113,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2233,
+        "region_name": "Estonia",
+        "first_shown": 20260119,
+        "last_shown": 20260719
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/4043626499492040519"
+    },
+    {
+      "title": "Arc’teryx Stockholm",
+      "snippet": "Calzado que aporta una pisada estable y reactiva, sea cual sea el terreno",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "Smålandsgatan 12, Stockholm, 111 46, SE"
+    }
+  ]
+}

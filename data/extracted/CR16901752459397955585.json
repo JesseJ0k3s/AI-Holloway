@@ -1,0 +1,24 @@
+{
+  "ad_id": "CR16901752459397955585",
+  "brand": "Patagonia",
+  "primary_claim_territory": "newness_seasonal",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Patagonia",
+  "audiences": [
+    "runners",
+    "outdoor_alpine"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

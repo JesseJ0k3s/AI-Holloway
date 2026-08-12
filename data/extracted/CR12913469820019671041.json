@@ -1,0 +1,21 @@
+{
+  "ad_id": "CR12913469820019671041",
+  "brand": "Alo Yoga",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "ALO",
+  "audiences": [
+    "yoga_studio"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

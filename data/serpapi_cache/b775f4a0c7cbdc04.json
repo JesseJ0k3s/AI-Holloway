@@ -1,0 +1,39 @@
+{
+  "search_metadata": {
+    "id": "6a7d006f03b1362d21426ecb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/Ql2Aa4PslhQ59bTbVqshXA/6a7d006f03b1362d21426ecb.json",
+    "created_at": "2026-08-12 23:23:27 UTC",
+    "processed_at": "2026-08-12 23:23:27 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665/creative/CR15082073437121806337?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/Ql2Aa4PslhQ59bTbVqshXA/6a7d006f03b1362d21426ecb.html",
+    "prettify_html_file": "https://serpapi.com/searches/Ql2Aa4PslhQ59bTbVqshXA/6a7d006f03b1362d21426ecb.prettify",
+    "total_time_taken": 0.36
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR02037031623316209665",
+    "creative_id": "CR15082073437121806337",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786552964,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR02037031623316209665?region=US",
+    "ad_funded_by": "Tracksmith Corporation",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13727946952593572084"
+    }
+  ]
+}

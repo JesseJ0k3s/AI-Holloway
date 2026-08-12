@@ -1,0 +1,225 @@
+{
+  "search_metadata": {
+    "id": "6a7d0003b4ab7286f2f944fd",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/-D-rFQu42sdBL2DFPVEJbg/6a7d0003b4ab7286f2f944fd.json",
+    "created_at": "2026-08-12 23:21:39 UTC",
+    "processed_at": "2026-08-12 23:21:39 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041/creative/CR05150275260943171585?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/-D-rFQu42sdBL2DFPVEJbg/6a7d0003b4ab7286f2f944fd.html",
+    "prettify_html_file": "https://serpapi.com/searches/-D-rFQu42sdBL2DFPVEJbg/6a7d0003b4ab7286f2f944fd.prettify",
+    "total_time_taken": 0.8
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01822115136316375041",
+    "creative_id": "CR05150275260943171585",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572630,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01822115136316375041",
+    "regions": [
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "last_shown": 20230502
+      },
+      {
+        "region": 2376,
+        "region_name": "Israel",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2344,
+        "region_name": "Hong Kong",
+        "last_shown": 20260719
+      },
+      {
+        "region": 2428,
+        "region_name": "Latvia",
+        "last_shown": 20230416
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "last_shown": 20230421
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2100,
+        "region_name": "Bulgaria",
+        "last_shown": 20230311
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "last_shown": 20230430
+      },
+      {
+        "region": 2705,
+        "region_name": "Slovenia",
+        "last_shown": 20230425
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "last_shown": 20230425
+      },
+      {
+        "region": 2703,
+        "region_name": "Slovakia",
+        "last_shown": 20230417
+      },
+      {
+        "region": 2470,
+        "region_name": "Malta",
+        "last_shown": 20230420
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2630,
+        "region_name": "Puerto Rico",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2158,
+        "region_name": "Taiwan",
+        "last_shown": 20260810
+      },
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "last_shown": 20230430
+      },
+      {
+        "region": 2663,
+        "region_name": "Saint Martin",
+        "last_shown": 20260628
+      },
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "last_shown": 20230425
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2442,
+        "region_name": "Luxembourg",
+        "last_shown": 20230307
+      },
+      {
+        "region": 2233,
+        "region_name": "Estonia",
+        "last_shown": 20230424
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2214,
+        "region_name": "Dominican Republic",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "last_shown": 20230429
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "last_shown": 20230424
+      },
+      {
+        "region": 2410,
+        "region_name": "South Korea",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2392,
+        "region_name": "Japan",
+        "last_shown": 20230502
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "last_shown": 20230423
+      },
+      {
+        "region": 2203,
+        "region_name": "Czechia",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2044,
+        "region_name": "The Bahamas",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "last_shown": 20230419
+      },
+      {
+        "region": 2036,
+        "region_name": "Australia",
+        "last_shown": 20230501
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "last_shown": 20230409
+      },
+      {
+        "region": 2246,
+        "region_name": "Finland",
+        "last_shown": 20230425
+      },
+      {
+        "region": 2440,
+        "region_name": "Lithuania",
+        "last_shown": 20230424
+      },
+      {
+        "region": 2484,
+        "region_name": "Mexico",
+        "last_shown": 20230502
+      },
+      {
+        "region": 2170,
+        "region_name": "Colombia",
+        "last_shown": 20230428
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/4331563135698328691"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/4331563135698328691"
+    }
+  ]
+}

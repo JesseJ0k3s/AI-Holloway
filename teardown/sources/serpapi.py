@@ -130,11 +130,19 @@ def searches_used() -> int:
 def fetch(
     brands: Optional[List[str]] = None,
     region: str = "US",
-    limit_per_brand: int = 10,
+    target_per_brand: int = 6,
+    max_details_per_brand: int = 18,
     use_cache: bool = True,
     verbose: bool = True,
     **_: object
 ) -> List[Ad]:
+    """Pull text ads per brand.
+
+    `target_per_brand` is how many ads WITH USABLE COPY we want. Roughly half
+    of creatives are image-only, so we keep requesting details until we hit the
+    target, then stop -- every extra detail call is a search off the quota.
+    `max_details_per_brand` caps the damage on a brand with a bad yield.
+    """
     key = os.environ.get("SERPAPI_KEY")
     if not key:
         raise SystemExit(
@@ -174,12 +182,35 @@ def fetch(
         if not creatives and verbose:
             print("  %-14s no text creatives returned" % brand)
 
+        # Brands run the same copy across many creative IDs -- Vuori served
+        # "Premium Performance Apparel, Without Sacrificing Comfort." under two
+        # separate creatives. Counting those twice would inflate a territory in
+        # the matrix, so only DISTINCT copy counts toward the target.
+        seen_copy = set()
         kept = 0
-        for row in creatives[:limit_per_brand]:
+        tried = 0
+        for row in creatives:
+            if kept >= target_per_brand or tried >= max_details_per_brand:
+                break
+
+            # Some advertisers expose no text at all through this API -- every
+            # variant comes back image-only (Gymshark and Tracksmith both did,
+            # burning 18 searches each for nothing). If the first several
+            # creatives yield nothing, the rest won't either. Bail and capture
+            # that brand by hand instead.
+            if tried >= 6 and kept == 0:
+                if verbose:
+                    print(
+                        "  %-14s no text in first %d creatives -- giving up "
+                        "(capture this brand manually)" % (brand, tried)
+                    )
+                break
+
             cid = str(row.get("ad_creative_id") or "")
             aid = str(row.get("advertiser_id") or advertiser_id or "")
             if not cid or not aid:
                 continue
+            tried += 1
 
             # Step 2 -- the only place the actual ad copy lives.
             detail = _get(
@@ -194,12 +225,23 @@ def fetch(
             )
 
             ad = _to_ad(row, detail, brand, aid, cid, now)
-            if ad is not None:
-                out.append(ad)
-                kept += 1
+            if ad is None:
+                continue
+
+            copy_key = ad.full_text.strip().lower()
+            if copy_key in seen_copy:
+                continue  # same message, different creative id
+            seen_copy.add(copy_key)
+
+            out.append(ad)
+            kept += 1
 
         if verbose:
-            print("  %-14s %d ads" % (brand, kept))
+            yield_pct = (100.0 * kept / tried) if tried else 0.0
+            print(
+                "  %-14s %d ads from %d detail calls (%.0f%% yield)"
+                % (brand, kept, tried, yield_pct)
+            )
 
     if verbose:
         print("  (%d SerpApi searches used this run)" % _searches_used)

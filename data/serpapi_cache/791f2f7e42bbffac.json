@@ -1,0 +1,113 @@
+{
+  "search_metadata": {
+    "id": "6a7d0028be918adff043ae27",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/MN4DbBM2lYt5yQejWI9qTA/6a7d0028be918adff043ae27.json",
+    "created_at": "2026-08-12 23:22:16 UTC",
+    "processed_at": "2026-08-12 23:22:16 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR07880951919403859969?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/MN4DbBM2lYt5yQejWI9qTA/6a7d0028be918adff043ae27.html",
+    "prettify_html_file": "https://serpapi.com/searches/MN4DbBM2lYt5yQejWI9qTA/6a7d0028be918adff043ae27.prettify",
+    "total_time_taken": 12.82
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR07880951919403859969",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786561654,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20240909,
+        "last_shown": 20260501
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20240907,
+        "last_shown": 20260415
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20240906,
+        "last_shown": 20260804
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "first_shown": 20240905,
+        "last_shown": 20260806
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20240907,
+        "last_shown": 20260630
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20240907,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20240908,
+        "last_shown": 20260620
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20240909,
+        "last_shown": 20260610
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20240910,
+        "last_shown": 20260607
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20240910,
+        "last_shown": 20260610
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20251022
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13416810332002908043"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13416810332002908043"
+    },
+    {
+      "title": "Arc'teryx Southgate Centre",
+      "snippet": "Shells, insulation, packs — our technical mountain gear keeps you moving.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "Southgate Centre #51, 5015 111 St NW #701, Edmonton, AB, T6H 3G4, CA"
+    }
+  ]
+}

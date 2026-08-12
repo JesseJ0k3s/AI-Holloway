@@ -1,0 +1,234 @@
+{
+  "search_metadata": {
+    "id": "6a7d003828c7fb116aadf54f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/0mNUfqpoFkWUeQJ7n-VndQ/6a7d003828c7fb116aadf54f.json",
+    "created_at": "2026-08-12 23:22:32 UTC",
+    "processed_at": "2026-08-12 23:22:32 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR11790537082743554049?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/0mNUfqpoFkWUeQJ7n-VndQ/6a7d003828c7fb116aadf54f.html",
+    "prettify_html_file": "https://serpapi.com/searches/0mNUfqpoFkWUeQJ7n-VndQ/6a7d003828c7fb116aadf54f.prettify",
+    "total_time_taken": 2.67
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR11790537082743554049",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786530065,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20260108,
+        "last_shown": 20260725
+      },
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "first_shown": 20260109,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2705,
+        "region_name": "Slovenia",
+        "first_shown": 20260111,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20260114,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20260109,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2100,
+        "region_name": "Bulgaria",
+        "first_shown": 20260109,
+        "last_shown": 20260717
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20260128,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20260109,
+        "last_shown": 20260808
+      },
+      {
+        "region": 2428,
+        "region_name": "Latvia",
+        "first_shown": 20260127,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "first_shown": 20260121,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2703,
+        "region_name": "Slovakia",
+        "first_shown": 20260123,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2032,
+        "region_name": "Argentina",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2442,
+        "region_name": "Luxembourg",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2233,
+        "region_name": "Estonia",
+        "first_shown": 20260111,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "first_shown": 20260109,
+        "last_shown": 20260725
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20260109,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20260109,
+        "last_shown": 20260812,
+        "times_shown": "3000 - 4000"
+      },
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "first_shown": 20260126,
+        "last_shown": 20260720
+      },
+      {
+        "region": 2203,
+        "region_name": "Czechia",
+        "first_shown": 20260110,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2040,
+        "region_name": "Austria",
+        "first_shown": 20260112,
+        "last_shown": 20260727
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20260108,
+        "last_shown": 20260812,
+        "times_shown": "3000 - 4000"
+      },
+      {
+        "region": 2826,
+        "region_name": "United Kingdom",
+        "last_shown": 20260806
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "first_shown": 20260112,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "first_shown": 20260122,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2642,
+        "region_name": "Romania",
+        "first_shown": 20260109,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2440,
+        "region_name": "Lithuania",
+        "first_shown": 20260112,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2246,
+        "region_name": "Finland",
+        "first_shown": 20260109,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "first_shown": 20260119,
+        "last_shown": 20260722
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "title": "Arc'teryx Oslo",
+      "snippet": "Entdecke leichte, technische Ausrüstung, mit der du über deine Ziele hinauswächst.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "Karl Johans gt. 21, Oslo, 0159, NO"
+    },
+    {
+      "title": "Arc'teryx Chamonix",
+      "snippet": "Entdecke leichte, technische Ausrüstung, mit der du über deine Ziele hinauswächst.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "265 Rue du Dr Paccard, Chamonix-Mont-Blanc, 74400, FR"
+    }
+  ]
+}

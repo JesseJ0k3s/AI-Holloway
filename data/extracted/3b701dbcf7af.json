@@ -1,0 +1,23 @@
+{
+  "ad_id": "3b701dbcf7af",
+  "brand": "Tracksmith",
+  "primary_claim_territory": "performance",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Running Pants For Women - Essentials For Serious Runners",
+  "audiences": [
+    "runners",
+    "strength_gym",
+    "women_explicit"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

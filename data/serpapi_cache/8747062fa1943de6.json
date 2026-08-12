@@ -1,0 +1,58 @@
+{
+  "search_metadata": {
+    "id": "6a7cffd0f9aa73e6823d1ec6",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/dvWUHVm7s8AER0N4AESeIg/6a7cffd0f9aa73e6823d1ec6.json",
+    "created_at": "2026-08-12 23:20:48 UTC",
+    "processed_at": "2026-08-12 23:20:48 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR05585223996258910209?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/dvWUHVm7s8AER0N4AESeIg/6a7cffd0f9aa73e6823d1ec6.html",
+    "prettify_html_file": "https://serpapi.com/searches/dvWUHVm7s8AER0N4AESeIg/6a7cffd0f9aa73e6823d1ec6.prettify",
+    "total_time_taken": 3.97
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01566006373894848513",
+    "creative_id": "CR05585223996258910209",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572181,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01566006373894848513?region=US",
+    "ad_funded_by": "On AG",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17903347836690252970"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17903347836690252970"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17903347836690252970"
+    },
+    {
+      "title": "On Flagship Store Chicago Rush Street",
+      "snippet": "ON ROGER Centre Court returns with an enhanced focus on fit and comfort.",
+      "visible_link": "on.com",
+      "address": "1043 N Rush St, Chicago, IL, 60611, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipP_UMJecdbuq8M9UoqIal-eqXpsrqvC7dfItqD3=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNx6WgyeTwiJ9zUhdNRGfYDYljYCxC77wFM48e_=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMCJ8b--Qfk1z-Sc7GDbvE2THwuLbGejCct0ZGC=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPkTa4Y3l5W3YM0X4LWl-vNvhcFPW8JBRSpRQxN=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPNFQj0cFQ7LzyQShCsDG7ApGPCjLjjveYKGK5j=k-no-"
+      ]
+    }
+  ]
+}

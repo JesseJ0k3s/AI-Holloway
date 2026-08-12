@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cff847dcfbef930604beb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/p5_9c1m7m_i1YRMw8whvOQ/6a7cff847dcfbef930604beb.json",
+    "created_at": "2026-08-12 23:19:32 UTC",
+    "processed_at": "2026-08-12 23:19:32 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR07331135357498425345?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/p5_9c1m7m_i1YRMw8whvOQ/6a7cff847dcfbef930604beb.html",
+    "prettify_html_file": "https://serpapi.com/searches/p5_9c1m7m_i1YRMw8whvOQ/6a7cff847dcfbef930604beb.prettify",
+    "total_time_taken": 2.16
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01614014350098432001",
+    "creative_id": "CR07331135357498425345",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573118,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01614014350098432001?region=US",
+    "ad_funded_by": "lululemon athletica canada inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8504421108791482002"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8504421108791482002"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8504421108791482002"
+    },
+    {
+      "title": "lululemon",
+      "snippet": "We Know, Underwear Matters. That's Why We Made This. All Day, Any Activity.",
+      "visible_link": "shop.lululemon.com",
+      "address": "334 Santana Row Unit 1035, San Jose, California, 95128, US"
+    }
+  ]
+}

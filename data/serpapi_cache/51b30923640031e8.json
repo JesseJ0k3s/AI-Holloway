@@ -1,0 +1,48 @@
+{
+  "search_metadata": {
+    "id": "6a7cff54d649a9f3c2b751b4",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/dNU2eVMIrE1-S60v4MCVDg/6a7cff54d649a9f3c2b751b4.json",
+    "created_at": "2026-08-12 23:18:44 UTC",
+    "processed_at": "2026-08-12 23:18:44 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR09685491740307357697?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/dNU2eVMIrE1-S60v4MCVDg/6a7cff54d649a9f3c2b751b4.html",
+    "prettify_html_file": "https://serpapi.com/searches/dNU2eVMIrE1-S60v4MCVDg/6a7cff54d649a9f3c2b751b4.prettify",
+    "total_time_taken": 2.13
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR09685491740307357697",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786536401,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/6910813484332402876"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/6910813484332402876"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Meet Your New Everyday Clothing. Sign Up With Email and Enjoy 20% Off Your First Purchase.",
+      "visible_link": "vuoriclothing.com",
+      "address": "1003 North Rush Street, Chicago, Illinois, 60611, US"
+    }
+  ]
+}

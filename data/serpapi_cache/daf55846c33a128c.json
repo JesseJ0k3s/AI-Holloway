@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cff2b5a5e96a1371011d2",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/s_YZwSja1vAQ_I-BYSzY6g/6a7cff2b5a5e96a1371011d2.json",
+    "created_at": "2026-08-12 23:18:03 UTC",
+    "processed_at": "2026-08-12 23:18:03 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR03789524240252796929?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/s_YZwSja1vAQ_I-BYSzY6g/6a7cff2b5a5e96a1371011d2.html",
+    "prettify_html_file": "https://serpapi.com/searches/s_YZwSja1vAQ_I-BYSzY6g/6a7cff2b5a5e96a1371011d2.prettify",
+    "total_time_taken": 3.11
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR03789524240252796929",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786539916,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2078076991681691518"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2078076991681691518"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2078076991681691518"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Vuori® Performance Apparel. Built To Move In. Styled For Life.™",
+      "visible_link": "vuoriclothing.com",
+      "address": "1961 Chain Bridge Rd D4u, McLean, VA, 22102, US"
+    }
+  ]
+}

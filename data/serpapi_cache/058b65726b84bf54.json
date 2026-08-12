@@ -1,0 +1,52 @@
+{
+  "search_metadata": {
+    "id": "6a7cff8df0527564db71a9a2",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/L4t2ruiXRKbRBukQbAkRTw/6a7cff8df0527564db71a9a2.json",
+    "created_at": "2026-08-12 23:19:41 UTC",
+    "processed_at": "2026-08-12 23:19:41 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR00164845311586467841?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/L4t2ruiXRKbRBukQbAkRTw/6a7cff8df0527564db71a9a2.html",
+    "prettify_html_file": "https://serpapi.com/searches/L4t2ruiXRKbRBukQbAkRTw/6a7cff8df0527564db71a9a2.prettify",
+    "total_time_taken": 2.65
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01614014350098432001",
+    "creative_id": "CR00164845311586467841",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572874,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01614014350098432001?region=US",
+    "ad_funded_by": "lululemon athletica canada inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10865723284258387414"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8445242486925072499"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8445242486925072499"
+    },
+    {
+      "title": "lululemon",
+      "snippet": "Lightweight, Breathable Running Hats To Stretchy, Sweat-Wicking Bucket Hats.",
+      "visible_link": "shop.lululemon.com",
+      "advertiser_name": "lululemon",
+      "address": "630 Old Country Road 1122A & 1122S, Garden City, New York, 11530, US"
+    }
+  ]
+}

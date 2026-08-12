@@ -1,0 +1,74 @@
+{
+  "search_metadata": {
+    "id": "6a7d006d88aca43838843df0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/V3Qw5SpceLrT7TuKWXaVgQ/6a7d006d88aca43838843df0.json",
+    "created_at": "2026-08-12 23:23:25 UTC",
+    "processed_at": "2026-08-12 23:23:25 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665/creative/CR03740965477443174401?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/V3Qw5SpceLrT7TuKWXaVgQ/6a7d006d88aca43838843df0.html",
+    "prettify_html_file": "https://serpapi.com/searches/V3Qw5SpceLrT7TuKWXaVgQ/6a7d006d88aca43838843df0.prettify",
+    "total_time_taken": 0.73
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR02037031623316209665",
+    "creative_id": "CR03740965477443174401",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786568489,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR02037031623316209665",
+    "ad_funded_by": "Tracksmith Corporation",
+    "regions": [
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20230916,
+        "last_shown": 20260730
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20230903,
+        "last_shown": 20260809
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20230903,
+        "last_shown": 20260806
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20230916,
+        "last_shown": 20260809
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20231015,
+        "last_shown": 20260704
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15213686835553236328"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15213686835553236328"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15213686835553236328"
+    }
+  ]
+}

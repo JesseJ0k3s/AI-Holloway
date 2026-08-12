@@ -1,0 +1,44 @@
+{
+  "search_metadata": {
+    "id": "6a7d00093882c5f3131becd5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/l-NMVoXDHAXWG0kTne8MpQ/6a7d00093882c5f3131becd5.json",
+    "created_at": "2026-08-12 23:21:45 UTC",
+    "processed_at": "2026-08-12 23:21:45 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041/creative/CR03123140316018769921?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/l-NMVoXDHAXWG0kTne8MpQ/6a7d00093882c5f3131becd5.html",
+    "prettify_html_file": "https://serpapi.com/searches/l-NMVoXDHAXWG0kTne8MpQ/6a7d00093882c5f3131becd5.prettify",
+    "total_time_taken": 1.18
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01822115136316375041",
+    "creative_id": "CR03123140316018769921",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786570134,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01822115136316375041?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10843157768171607374"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10843157768171607374"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/10843157768171607374"
+    }
+  ]
+}

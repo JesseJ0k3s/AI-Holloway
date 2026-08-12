@@ -1,0 +1,46 @@
+{
+  "search_metadata": {
+    "id": "6a7cff2748c791cca5e6f042",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/mTcxfpOfQ_vaU2wLBIRyiA/6a7cff2748c791cca5e6f042.json",
+    "created_at": "2026-08-12 23:17:59 UTC",
+    "processed_at": "2026-08-12 23:17:59 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR00302172681808117761?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/mTcxfpOfQ_vaU2wLBIRyiA/6a7cff2748c791cca5e6f042.html",
+    "prettify_html_file": "https://serpapi.com/searches/mTcxfpOfQ_vaU2wLBIRyiA/6a7cff2748c791cca5e6f042.prettify",
+    "total_time_taken": 2.3
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR00302172681808117761",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786541594,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/14152897772933975351"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Premium Performance Apparel, Without Sacrificing Comfort.",
+      "visible_link": "vuoriclothing.com",
+      "advertiser_name": "Vuori® Clothing",
+      "address": "3222 M St NW, Washington, DC, 20007, US"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "search_metadata": {
+    "id": "6a7d003b932b0e15cb419101",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/nWYDsMF6VOrU1KNAjXf_0g/6a7d003b932b0e15cb419101.json",
+    "created_at": "2026-08-12 23:22:35 UTC",
+    "processed_at": "2026-08-12 23:22:35 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR16347731304898363393?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/nWYDsMF6VOrU1KNAjXf_0g/6a7d003b932b0e15cb419101.html",
+    "prettify_html_file": "https://serpapi.com/searches/nWYDsMF6VOrU1KNAjXf_0g/6a7d003b932b0e15cb419101.prettify",
+    "total_time_taken": 3.4
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR16347731304898363393",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786524029,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2428,
+        "region_name": "Latvia",
+        "first_shown": 20260110,
+        "last_shown": 20260726
+      },
+      {
+        "region": 2100,
+        "region_name": "Bulgaria",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2470,
+        "region_name": "Malta",
+        "first_shown": 20260111,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20260109,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2703,
+        "region_name": "Slovakia",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2702,
+        "region_name": "Singapore",
+        "last_shown": 20260727
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "first_shown": 20260110,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20260109,
+        "last_shown": 20260806
+      },
+      {
+        "region": 2705,
+        "region_name": "Slovenia",
+        "first_shown": 20260112,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "first_shown": 20260111,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20260109,
+        "last_shown": 20260812,
+        "times_shown": "8000 - 9000"
+      },
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "first_shown": 20260109,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "first_shown": 20260110,
+        "last_shown": 20260807
+      },
+      {
+        "region": 2233,
+        "region_name": "Estonia",
+        "first_shown": 20260111,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2442,
+        "region_name": "Luxembourg",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2032,
+        "region_name": "Argentina",
+        "last_shown": 20260730
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20260109,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20260108,
+        "last_shown": 20260812,
+        "times_shown": "10000 - 15000"
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20260110,
+        "last_shown": 20260728
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "first_shown": 20260109,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20260110,
+        "last_shown": 20260802
+      },
+      {
+        "region": 2203,
+        "region_name": "Czechia",
+        "first_shown": 20260110,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2040,
+        "region_name": "Austria",
+        "first_shown": 20260110,
+        "last_shown": 20260803
+      },
+      {
+        "region": 2826,
+        "region_name": "United Kingdom",
+        "last_shown": 20260807
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "first_shown": 20260110,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2638,
+        "region_name": "Reunion",
+        "first_shown": 20260111,
+        "last_shown": 20260721
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20260109,
+        "last_shown": 20260808,
+        "times_shown": "3000 - 4000"
+      },
+      {
+        "region": 2642,
+        "region_name": "Romania",
+        "first_shown": 20260110,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2440,
+        "region_name": "Lithuania",
+        "first_shown": 20260111,
+        "last_shown": 20260722
+      },
+      {
+        "region": 2246,
+        "region_name": "Finland",
+        "first_shown": 20260109,
+        "last_shown": 20260811
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "title": "Arc'teryx Covent Garden",
+      "snippet": "Réactivité, adhérence fiable et stabilité irréprochable pour courir sur terrain accidenté",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "41-42 King Street, London, WC2E 8JS, GB"
+    },
+    {
+      "title": "Arc'teryx Le Marais",
+      "snippet": "Réactivité, adhérence fiable et stabilité irréprochable pour courir sur terrain accidenté",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "42 Rue des Francs Bourgeois, Paris, 75004, FR"
+    }
+  ]
+}

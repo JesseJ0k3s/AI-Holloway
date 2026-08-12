@@ -1,0 +1,52 @@
+{
+  "search_metadata": {
+    "id": "6a7cff9d6e2237a081655160",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/XjS4RcRCRcScZmzh3lFCxg/6a7cff9d6e2237a081655160.json",
+    "created_at": "2026-08-12 23:19:57 UTC",
+    "processed_at": "2026-08-12 23:19:57 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR10532633314563457025?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/XjS4RcRCRcScZmzh3lFCxg/6a7cff9d6e2237a081655160.html",
+    "prettify_html_file": "https://serpapi.com/searches/XjS4RcRCRcScZmzh3lFCxg/6a7cff9d6e2237a081655160.prettify",
+    "total_time_taken": 1.53
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16735076323512287233",
+    "creative_id": "CR10532633314563457025",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786575115,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16735076323512287233?region=US",
+    "ad_funded_by": "Nike, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1167411770909627885"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1167411770909627885"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1167411770909627885"
+    },
+    {
+      "title": "Nike Clearance Store - Las Vegas South",
+      "snippet": "Use promo code DAYONE to get an extra 25% off on select styles.",
+      "visible_link": "nike.com",
+      "advertiser_name": "Nike",
+      "address": "7400 South Las Vegas Boulevard Box 1, Las Vegas, Nevada, 89123, US"
+    }
+  ]
+}

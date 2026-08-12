@@ -1,0 +1,21 @@
+{
+  "ad_id": "CR16493352746594861057",
+  "brand": "Vuori",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Vuori",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

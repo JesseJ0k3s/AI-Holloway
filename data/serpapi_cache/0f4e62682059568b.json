@@ -1,0 +1,45 @@
+{
+  "search_metadata": {
+    "id": "6a7cff0c410cdab93bec9b6c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/rZgNxIGtcYKSIxonU0I_DA/6a7cff0c410cdab93bec9b6c.json",
+    "created_at": "2026-08-12 23:17:32 UTC",
+    "processed_at": "2026-08-12 23:17:32 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR10458937199092039681?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/rZgNxIGtcYKSIxonU0I_DA/6a7cff0c410cdab93bec9b6c.html",
+    "prettify_html_file": "https://serpapi.com/searches/rZgNxIGtcYKSIxonU0I_DA/6a7cff0c410cdab93bec9b6c.prettify",
+    "total_time_taken": 8.8
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR10458937199092039681",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786567879,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8764489279987139037"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Lounge By The Pool Or Catch Waves In Vuori® Swimwear.",
+      "visible_link": "vuoriclothing.com",
+      "address": "106 Spring Street, New York, New York, 10012, US"
+    }
+  ]
+}

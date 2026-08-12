@@ -1,0 +1,24 @@
+{
+  "ad_id": "CR00164845311586467841",
+  "brand": "lululemon",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [
+    "technical_innovation",
+    "performance"
+  ],
+  "claim_verbatim": "lululemon",
+  "audiences": [
+    "runners"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

@@ -1,0 +1,39 @@
+{
+  "search_metadata": {
+    "id": "6a7d00b0a28971de7162c18c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/8YAfxcqX87zRHkYx2hpAEQ/6a7d00b0a28971de7162c18c.json",
+    "created_at": "2026-08-12 23:24:32 UTC",
+    "processed_at": "2026-08-12 23:24:32 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR01770404150979330049?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/8YAfxcqX87zRHkYx2hpAEQ/6a7d00b0a28971de7162c18c.html",
+    "prettify_html_file": "https://serpapi.com/searches/8YAfxcqX87zRHkYx2hpAEQ/6a7d00b0a28971de7162c18c.prettify",
+    "total_time_taken": 1.49
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR03556834903704207361",
+    "creative_id": "CR01770404150979330049",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572529,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR03556834903704207361?region=US",
+    "ad_funded_by": "Just Fabulous, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/17983229324610436977"
+    }
+  ]
+}

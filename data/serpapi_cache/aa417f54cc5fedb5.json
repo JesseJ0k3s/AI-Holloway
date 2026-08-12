@@ -1,0 +1,89 @@
+{
+  "search_metadata": {
+    "id": "6a7d006b23df781b55e5199d",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/_ecy9m9KOUNHebTkvG2FAg/6a7d006b23df781b55e5199d.json",
+    "created_at": "2026-08-12 23:23:23 UTC",
+    "processed_at": "2026-08-12 23:23:23 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665/creative/CR05195477360782082049?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/_ecy9m9KOUNHebTkvG2FAg/6a7d006b23df781b55e5199d.html",
+    "prettify_html_file": "https://serpapi.com/searches/_ecy9m9KOUNHebTkvG2FAg/6a7d006b23df781b55e5199d.prettify",
+    "total_time_taken": 0.97
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR02037031623316209665",
+    "creative_id": "CR05195477360782082049",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786571775,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR02037031623316209665",
+    "ad_funded_by": "Tracksmith Corporation",
+    "regions": [
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20260321,
+        "last_shown": 20260723
+      },
+      {
+        "region": 2398,
+        "region_name": "Kazakhstan",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2356,
+        "region_name": "India",
+        "last_shown": 20260802
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2076,
+        "region_name": "Brazil",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20260313,
+        "last_shown": 20260727
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20260318,
+        "last_shown": 20260731
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20260313,
+        "last_shown": 20260807
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "first_shown": 20260322,
+        "last_shown": 20260808
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20260320,
+        "last_shown": 20260809
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/245706223897801325"
+    }
+  ]
+}

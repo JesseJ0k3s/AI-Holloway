@@ -1,0 +1,65 @@
+{
+  "search_metadata": {
+    "id": "6a7d0010a973c41f9a6f79d4",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f3s3oQoXfmzebrcIG0CyAA/6a7d0010a973c41f9a6f79d4.json",
+    "created_at": "2026-08-12 23:21:52 UTC",
+    "processed_at": "2026-08-12 23:21:52 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041/creative/CR11049446050686304257?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/f3s3oQoXfmzebrcIG0CyAA/6a7d0010a973c41f9a6f79d4.html",
+    "prettify_html_file": "https://serpapi.com/searches/f3s3oQoXfmzebrcIG0CyAA/6a7d0010a973c41f9a6f79d4.prettify",
+    "total_time_taken": 6.16
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01822115136316375041",
+    "creative_id": "CR11049446050686304257",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786532047,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01822115136316375041",
+    "ad_funded_by": "Gymshark USA Inc",
+    "regions": [
+      {
+        "region": 2474,
+        "region_name": "Martinique",
+        "first_shown": 20250114,
+        "last_shown": 20260805
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2826,
+        "region_name": "United Kingdom",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2344,
+        "region_name": "Hong Kong",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2312,
+        "region_name": "Guadeloupe",
+        "first_shown": 20250115,
+        "last_shown": 20260808
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/18417367340394700930"
+    }
+  ]
+}

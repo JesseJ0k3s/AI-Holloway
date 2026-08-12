@@ -1,0 +1,71 @@
+{
+  "search_metadata": {
+    "id": "6a7d009f3d0e4e0756ac61a1",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/ZyfjV3WlNVuWwyzp_SLgGQ/6a7d009f3d0e4e0756ac61a1.json",
+    "created_at": "2026-08-12 23:24:15 UTC",
+    "processed_at": "2026-08-12 23:24:15 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR00674307803887697921?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/ZyfjV3WlNVuWwyzp_SLgGQ/6a7d009f3d0e4e0756ac61a1.html",
+    "prettify_html_file": "https://serpapi.com/searches/ZyfjV3WlNVuWwyzp_SLgGQ/6a7d009f3d0e4e0756ac61a1.prettify",
+    "total_time_taken": 2.58
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04323445746671026177",
+    "creative_id": "CR00674307803887697921",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572447,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04323445746671026177",
+    "regions": [
+      {
+        "region": 2484,
+        "region_name": "Mexico",
+        "last_shown": 20260806
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "last_shown": 20260531
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "last_shown": 20260605
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "last_shown": 20260507
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/6747528105738783683"
+    },
+    {
+      "title": "New Balance Bethesda Row",
+      "snippet": "The 327 Is The Perfect Blend of Bold And Sporty Style. Check Out Women's 327 Sneakers.",
+      "visible_link": "newbalance.com",
+      "advertiser_name": "New Balance",
+      "address": "7033 Arlington Rd, Bethesda, MD, 20814-5230, US"
+    },
+    {
+      "title": "New Balance",
+      "snippet": "Reshaping Classic Design Elements With A Thorough Contemporary Outlook. Shop Women's 327.",
+      "visible_link": "newbalance.com",
+      "advertiser_name": "New Balance",
+      "address": "315 N Cattlemen Rd Ste 1, Sarasota, FL, 34235, US"
+    }
+  ]
+}

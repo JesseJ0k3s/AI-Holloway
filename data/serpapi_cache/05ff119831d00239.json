@@ -1,0 +1,48 @@
+{
+  "search_metadata": {
+    "id": "6a7d008b55cfe1684e0a21fd",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/rqJrsuST7ribEx1lDQCErQ/6a7d008b55cfe1684e0a21fd.json",
+    "created_at": "2026-08-12 23:23:55 UTC",
+    "processed_at": "2026-08-12 23:23:55 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR13412464343149182977?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/rqJrsuST7ribEx1lDQCErQ/6a7d008b55cfe1684e0a21fd.html",
+    "prettify_html_file": "https://serpapi.com/searches/rqJrsuST7ribEx1lDQCErQ/6a7d008b55cfe1684e0a21fd.prettify",
+    "total_time_taken": 4.08
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04323445746671026177",
+    "creative_id": "CR13412464343149182977",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573545,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04323445746671026177?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/9610342283774644118"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/9610342283774644118"
+    },
+    {
+      "title": "New Balance Overland Park",
+      "snippet": "The New Balance Lifestyle Collection. An Elevated Take On Classic Looks.",
+      "visible_link": "newbalance.com",
+      "advertiser_name": "New Balance",
+      "address": "6607 W 119th St, Overland Park, KS, 66209, US"
+    }
+  ]
+}

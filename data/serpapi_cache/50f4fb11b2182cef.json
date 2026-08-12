@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cffd950849c4f8fec1048",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/cYsKbp2VHcuT5-kLG86Abw/6a7cffd950849c4f8fec1048.json",
+    "created_at": "2026-08-12 23:20:57 UTC",
+    "processed_at": "2026-08-12 23:20:57 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR09039004698748649473?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/cYsKbp2VHcuT5-kLG86Abw/6a7cffd950849c4f8fec1048.html",
+    "prettify_html_file": "https://serpapi.com/searches/cYsKbp2VHcuT5-kLG86Abw/6a7cffd950849c4f8fec1048.prettify",
+    "total_time_taken": 9.17
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01566006373894848513",
+    "creative_id": "CR09039004698748649473",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786570924,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01566006373894848513?region=US",
+    "ad_funded_by": "On AG",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12016644686789579399"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12016644686789579399"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12016644686789579399"
+    },
+    {
+      "title": "On Store The Village at Corte Madera",
+      "snippet": "Un diseño que fluye con cualquier movimiento para entrenar con toda comodidad.",
+      "visible_link": "on.com",
+      "address": "The Village at, 1702 Redwood Hwy Space 039, Corte Madera, CA, 94925, US"
+    }
+  ]
+}

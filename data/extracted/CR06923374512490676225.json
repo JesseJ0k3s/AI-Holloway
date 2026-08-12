@@ -1,0 +1,22 @@
+{
+  "ad_id": "CR06923374512490676225",
+  "brand": "New Balance",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [
+    "performance",
+    "style_versatility"
+  ],
+  "claim_verbatim": "New Balance",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

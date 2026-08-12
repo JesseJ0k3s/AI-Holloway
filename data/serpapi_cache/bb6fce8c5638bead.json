@@ -1,0 +1,454 @@
+{
+  "search_metadata": {
+    "id": "6a7cffaefda607b8fcaecb6f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/SM4kJO6jioo-CskFkSfWkQ/6a7cffaefda607b8fcaecb6f.json",
+    "created_at": "2026-08-12 23:20:14 UTC",
+    "processed_at": "2026-08-12 23:20:14 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR10871259591425916929/creative/CR03935808215014440961?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/SM4kJO6jioo-CskFkSfWkQ/6a7cffaefda607b8fcaecb6f.html",
+    "prettify_html_file": "https://serpapi.com/searches/SM4kJO6jioo-CskFkSfWkQ/6a7cffaefda607b8fcaecb6f.prettify",
+    "total_time_taken": 2.05
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR10871259591425916929",
+    "creative_id": "CR03935808215014440961",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573957,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR10871259591425916929",
+    "ad_funded_by": "COLOR IMAGE APPAREL, INC.",
+    "regions": [
+      {
+        "region": 2152,
+        "region_name": "Chile",
+        "last_shown": 20260809
+      },
+      {
+        "region": 2340,
+        "region_name": "Honduras",
+        "last_shown": 20260807
+      },
+      {
+        "region": 2044,
+        "region_name": "The Bahamas",
+        "last_shown": 20260806
+      },
+      {
+        "region": 2040,
+        "region_name": "Austria",
+        "first_shown": 20240510,
+        "last_shown": 20260810,
+        "times_shown": "4000 - 5000"
+      },
+      {
+        "region": 2400,
+        "region_name": "Jordan",
+        "last_shown": 20260810
+      },
+      {
+        "region": 2756,
+        "region_name": "Switzerland",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2218,
+        "region_name": "Ecuador",
+        "last_shown": 20260728
+      },
+      {
+        "region": 2438,
+        "region_name": "Liechtenstein",
+        "first_shown": 20240514,
+        "last_shown": 20251021
+      },
+      {
+        "region": 2826,
+        "region_name": "United Kingdom",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20240510,
+        "last_shown": 20260808,
+        "times_shown": "6000 - 7000"
+      },
+      {
+        "region": 2474,
+        "region_name": "Martinique",
+        "first_shown": 20240830,
+        "last_shown": 20260704
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "first_shown": 20240509,
+        "last_shown": 20260724,
+        "times_shown": "3000 - 4000"
+      },
+      {
+        "region": 2591,
+        "region_name": "Panama",
+        "last_shown": 20260806
+      },
+      {
+        "region": 2188,
+        "region_name": "Costa Rica",
+        "last_shown": 20260802
+      },
+      {
+        "region": 2246,
+        "region_name": "Finland",
+        "first_shown": 20240511,
+        "last_shown": 20260723,
+        "times_shown": "3000 - 4000"
+      },
+      {
+        "region": 2634,
+        "region_name": "Qatar",
+        "last_shown": 20260804
+      },
+      {
+        "region": 2008,
+        "region_name": "Albania",
+        "last_shown": 20260807
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20240510,
+        "last_shown": 20260812,
+        "times_shown": "5000 - 6000"
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "first_shown": 20240510,
+        "last_shown": 20260808,
+        "times_shown": "9000 - 10000"
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20240510,
+        "last_shown": 20260812,
+        "times_shown": "25000 - 30000"
+      },
+      {
+        "region": 2703,
+        "region_name": "Slovakia",
+        "first_shown": 20240509,
+        "last_shown": 20260801,
+        "times_shown": "4000 - 5000"
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20240510,
+        "last_shown": 20260812,
+        "times_shown": "45000 - 50000"
+      },
+      {
+        "region": 2376,
+        "region_name": "Israel",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2470,
+        "region_name": "Malta",
+        "first_shown": 20240511,
+        "last_shown": 20260703
+      },
+      {
+        "region": 2158,
+        "region_name": "Taiwan",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20240510,
+        "last_shown": 20260812,
+        "times_shown": "10000 - 15000"
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "first_shown": 20240510,
+        "last_shown": 20260809,
+        "times_shown": "5000 - 6000"
+      },
+      {
+        "region": 2320,
+        "region_name": "Guatemala",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2702,
+        "region_name": "Singapore",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2780,
+        "region_name": "Trinidad and Tobago",
+        "last_shown": 20260806
+      },
+      {
+        "region": 2060,
+        "region_name": "Bermuda",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2414,
+        "region_name": "Kuwait",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20240510,
+        "last_shown": 20260812,
+        "times_shown": "10000 - 15000"
+      },
+      {
+        "region": 2558,
+        "region_name": "Nicaragua",
+        "last_shown": 20260730
+      },
+      {
+        "region": 2862,
+        "region_name": "Venezuela",
+        "last_shown": 20260805
+      },
+      {
+        "region": 2360,
+        "region_name": "Indonesia",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2442,
+        "region_name": "Luxembourg",
+        "first_shown": 20240519,
+        "last_shown": 20260624,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2752,
+        "region_name": "Sweden",
+        "first_shown": 20240513,
+        "last_shown": 20260808,
+        "times_shown": "4000 - 5000"
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20240511,
+        "last_shown": 20260812,
+        "times_shown": "10000 - 15000"
+      },
+      {
+        "region": 2410,
+        "region_name": "South Korea",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20240509,
+        "last_shown": 20260810,
+        "times_shown": "7000 - 8000"
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "first_shown": 20240510,
+        "last_shown": 20260808,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2458,
+        "region_name": "Malaysia",
+        "last_shown": 20260810
+      },
+      {
+        "region": 2214,
+        "region_name": "Dominican Republic",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2203,
+        "region_name": "Czechia",
+        "first_shown": 20240511,
+        "last_shown": 20260804,
+        "times_shown": "6000 - 7000"
+      },
+      {
+        "region": 2764,
+        "region_name": "Thailand",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2048,
+        "region_name": "Bahrain",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2392,
+        "region_name": "Japan",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2036,
+        "region_name": "Australia",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2388,
+        "region_name": "Jamaica",
+        "last_shown": 20260804
+      },
+      {
+        "region": 2156,
+        "region_name": "China",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2136,
+        "region_name": "Cayman Islands",
+        "last_shown": 20260808
+      },
+      {
+        "region": 2710,
+        "region_name": "South Africa",
+        "last_shown": 20260807
+      },
+      {
+        "region": 2608,
+        "region_name": "Philippines",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2352,
+        "region_name": "Iceland",
+        "first_shown": 20240514,
+        "last_shown": 20260703,
+        "times_shown": "2000 - 3000"
+      },
+      {
+        "region": 2484,
+        "region_name": "Mexico",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2638,
+        "region_name": "Reunion",
+        "first_shown": 20240605,
+        "last_shown": 20251010
+      },
+      {
+        "region": 2344,
+        "region_name": "Hong Kong",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20240526,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2170,
+        "region_name": "Colombia",
+        "last_shown": 20260727
+      },
+      {
+        "region": 2428,
+        "region_name": "Latvia",
+        "first_shown": 20240510,
+        "last_shown": 20260719,
+        "times_shown": "2000 - 3000"
+      },
+      {
+        "region": 2124,
+        "region_name": "Canada",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2818,
+        "region_name": "Egypt",
+        "last_shown": 20260809
+      },
+      {
+        "region": 2554,
+        "region_name": "New Zealand",
+        "last_shown": 20260714
+      },
+      {
+        "region": 2496,
+        "region_name": "Mongolia",
+        "last_shown": 20260728
+      },
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "first_shown": 20240515,
+        "last_shown": 20260811,
+        "times_shown": "1000 - 2000"
+      },
+      {
+        "region": 2784,
+        "region_name": "United Arab Emirates",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2312,
+        "region_name": "Guadeloupe",
+        "first_shown": 20240816,
+        "last_shown": 20260510
+      },
+      {
+        "region": 2032,
+        "region_name": "Argentina",
+        "last_shown": 20260811
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20240509,
+        "last_shown": 20260805,
+        "times_shown": "8000 - 9000"
+      },
+      {
+        "region": 2233,
+        "region_name": "Estonia",
+        "first_shown": 20240510,
+        "last_shown": 20260721,
+        "times_shown": "3000 - 4000"
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/3960940837493672347"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13993785571178206029"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13993785571178206029"
+    },
+    {
+      "visible_link": "aloyoga.com"
+    }
+  ]
+}

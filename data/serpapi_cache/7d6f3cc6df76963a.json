@@ -1,0 +1,60 @@
+{
+  "search_metadata": {
+    "id": "6a7cffd495e950a3d4d1b8e0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/7fAYESrhnvQeIr6YZpDOVg/6a7cffd495e950a3d4d1b8e0.json",
+    "created_at": "2026-08-12 23:20:52 UTC",
+    "processed_at": "2026-08-12 23:20:52 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR08324709512384610305?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/7fAYESrhnvQeIr6YZpDOVg/6a7cffd495e950a3d4d1b8e0.html",
+    "prettify_html_file": "https://serpapi.com/searches/7fAYESrhnvQeIr6YZpDOVg/6a7cffd495e950a3d4d1b8e0.prettify",
+    "total_time_taken": 4.91
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01566006373894848513",
+    "creative_id": "CR08324709512384610305",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786571938,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01566006373894848513?region=US",
+    "ad_funded_by": "On AG",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "sitelink_texts": [
+        "Last season",
+        "Sports Pants",
+        "Shop On Pants"
+      ],
+      "sitelink_descriptions": [
+        "Last chance for pieces from previous seasons. Save up to 40%.",
+        "Sporty, everyday pants for all-day comfort and style. ",
+        "From high-performance to everyday pants. Move your way. "
+      ]
+    },
+    {
+      "sitelink_texts": [
+        "On Pants",
+        "Shop On Pants",
+        "Running apparel",
+        "Training & gym",
+        "Tennis collection",
+        "Hiking & trail running",
+        "Last season",
+        "Lifestyle collection"
+      ]
+    }
+  ]
+}

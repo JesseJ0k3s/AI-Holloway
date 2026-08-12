@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cff239a1f2cd0e62a636a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/KaN-4tOhbNN0D630N9-2SA/6a7cff239a1f2cd0e62a636a.json",
+    "created_at": "2026-08-12 23:17:55 UTC",
+    "processed_at": "2026-08-12 23:17:55 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR16493352746594861057?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/KaN-4tOhbNN0D630N9-2SA/6a7cff239a1f2cd0e62a636a.html",
+    "prettify_html_file": "https://serpapi.com/searches/KaN-4tOhbNN0D630N9-2SA/6a7cff239a1f2cd0e62a636a.prettify",
+    "total_time_taken": 3.47
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR16493352746594861057",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786559336,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7794147782650165443"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7794147782650165443"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7794147782650165443"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Premium Performance Fabrics With Ultra-flattering Fits. Built For Comfort & Exercise.",
+      "visible_link": "vuoriclothing.com",
+      "address": "1805 29th Street #1122, Boulder, Colorado, 80301, US"
+    }
+  ]
+}

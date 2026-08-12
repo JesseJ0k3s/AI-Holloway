@@ -1,0 +1,148 @@
+{
+  "search_metadata": {
+    "id": "6a7d0020410cdac2639899a8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/7V856q-NgQUBrgb4LpvKyA/6a7d0020410cdac2639899a8.json",
+    "created_at": "2026-08-12 23:22:08 UTC",
+    "processed_at": "2026-08-12 23:22:08 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR07313732622461435905?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/7V856q-NgQUBrgb4LpvKyA/6a7d0020410cdac2639899a8.html",
+    "prettify_html_file": "https://serpapi.com/searches/7V856q-NgQUBrgb4LpvKyA/6a7d0020410cdac2639899a8.prettify",
+    "total_time_taken": 7.55
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR17137590075693989889",
+    "creative_id": "CR07313732622461435905",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572274,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR17137590075693989889",
+    "ad_funded_by": "ARC’TERYX Equipment, a Division of Amer Sports Canada Inc.",
+    "regions": [
+      {
+        "region": 2056,
+        "region_name": "Belgium",
+        "first_shown": 20260507,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2826,
+        "region_name": "United Kingdom",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2250,
+        "region_name": "France",
+        "first_shown": 20260430,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20260430,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20260501,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20260515,
+        "last_shown": 20260809
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20260501,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2616,
+        "region_name": "Poland",
+        "first_shown": 20260501,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2578,
+        "region_name": "Norway",
+        "first_shown": 20260501,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260722
+      },
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20260428,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2642,
+        "region_name": "Romania",
+        "first_shown": 20260430,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2380,
+        "region_name": "Italy",
+        "first_shown": 20260504,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20260501,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2196,
+        "region_name": "Cyprus",
+        "first_shown": 20260502,
+        "last_shown": 20260811
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20260503,
+        "last_shown": 20260812
+      },
+      {
+        "region": 2348,
+        "region_name": "Hungary",
+        "first_shown": 20260503,
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "title": "Arc'teryx Piccadilly London Store",
+      "snippet": "Our lightweight layers are designed to keep you cool, covered, and protected from UV rays.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "212 Piccadilly, London, W1J 9HL, GB"
+    },
+    {
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx"
+    },
+    {
+      "title": "Arc'teryx Piccadilly London Store",
+      "snippet": "Our lightweight layers are designed to keep you cool, covered, and protected from UV rays.",
+      "visible_link": "arcteryx.com",
+      "advertiser_name": "Arc'teryx",
+      "address": "212 Piccadilly, London, W1J 9HL, GB"
+    }
+  ]
+}

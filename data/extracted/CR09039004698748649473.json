@@ -1,0 +1,19 @@
+{
+  "ad_id": "CR09039004698748649473",
+  "brand": "On",
+  "primary_claim_territory": "unclassified",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "On Store The Village at Corte Madera",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.1,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

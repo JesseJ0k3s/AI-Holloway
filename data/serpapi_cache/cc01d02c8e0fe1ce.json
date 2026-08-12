@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cffa97af8994811816454",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/elaWdY7fyS0YMOFJCx2t3g/6a7cffa97af8994811816454.json",
+    "created_at": "2026-08-12 23:20:09 UTC",
+    "processed_at": "2026-08-12 23:20:09 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR10871259591425916929/creative/CR00607181940407140353?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/elaWdY7fyS0YMOFJCx2t3g/6a7cffa97af8994811816454.html",
+    "prettify_html_file": "https://serpapi.com/searches/elaWdY7fyS0YMOFJCx2t3g/6a7cffa97af8994811816454.prettify",
+    "total_time_taken": 3.15
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR10871259591425916929",
+    "creative_id": "CR00607181940407140353",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786574085,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR10871259591425916929?region=US",
+    "ad_funded_by": "COLOR IMAGE APPAREL, INC.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12694153338535989080"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12694153338535989080"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12694153338535989080"
+    },
+    {
+      "title": "ALO",
+      "snippet": "Fast & free worldwide shipping. Shop ALO premium men's gym shorts now.",
+      "visible_link": "aloyoga.com",
+      "address": "6000 Glades Rd Ste 1122A, Boca Raton, FL, 33431, US"
+    }
+  ]
+}

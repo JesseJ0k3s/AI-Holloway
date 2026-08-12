@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cfff63336179243bbbb40",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/-P4F8dhUvCuyYbtXxK8coQ/6a7cfff63336179243bbbb40.json",
+    "created_at": "2026-08-12 23:21:26 UTC",
+    "processed_at": "2026-08-12 23:21:26 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR04214021782539075585?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/-P4F8dhUvCuyYbtXxK8coQ/6a7cfff63336179243bbbb40.html",
+    "prettify_html_file": "https://serpapi.com/searches/-P4F8dhUvCuyYbtXxK8coQ/6a7cfff63336179243bbbb40.prettify",
+    "total_time_taken": 2.45
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16916677161513910273",
+    "creative_id": "CR04214021782539075585",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573583,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16916677161513910273?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12225693530652781085"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12225693530652781085"
+    },
+    {
+      "title": "Under Armour Factory House",
+      "snippet": "Get The Gear Everyone's After. Shop Men's Under Armour® Compression Shirts Today",
+      "visible_link": "underarmour.com",
+      "advertiser_name": "Under Armour",
+      "address": "801 East Outlet Drive Suite 5100, Jenks, Oklahoma, 74037, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMjWgqeT_cp2JaIj9bqnayxGq2jHBeENJ5uCHiD=k-no-"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "search_metadata": {
+    "id": "6a7cffa0b8b4a5a3888a342f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/nfqbVcUvI-r-eNocmUuPbg/6a7cffa0b8b4a5a3888a342f.json",
+    "created_at": "2026-08-12 23:20:00 UTC",
+    "processed_at": "2026-08-12 23:20:00 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR05787452290872901633?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/nfqbVcUvI-r-eNocmUuPbg/6a7cffa0b8b4a5a3888a342f.html",
+    "prettify_html_file": "https://serpapi.com/searches/nfqbVcUvI-r-eNocmUuPbg/6a7cffa0b8b4a5a3888a342f.prettify",
+    "total_time_taken": 3.66
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16735076323512287233",
+    "creative_id": "CR05787452290872901633",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786574849,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16735076323512287233?region=US",
+    "ad_funded_by": "Nike, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16153825295919687660"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16153825295919687660"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16153825295919687660"
+    },
+    {
+      "title": "Nike Nashville",
+      "snippet": "Use promo code DAYONE to get an extra 25% off on select styles.",
+      "visible_link": "nike.com",
+      "advertiser_name": "Nike",
+      "address": "5046 Broadway, Nashville, Tennessee, 37203, US"
+    }
+  ]
+}

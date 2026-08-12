@@ -1,0 +1,77 @@
+{
+  "search_metadata": {
+    "id": "6a7cfff8529e4bf7faeaca29",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/tmVVh8t-JUjVF8BAuCsS6g/6a7cfff8529e4bf7faeaca29.json",
+    "created_at": "2026-08-12 23:21:28 UTC",
+    "processed_at": "2026-08-12 23:21:28 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR18213923938226929665?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/tmVVh8t-JUjVF8BAuCsS6g/6a7cfff8529e4bf7faeaca29.html",
+    "prettify_html_file": "https://serpapi.com/searches/tmVVh8t-JUjVF8BAuCsS6g/6a7cfff8529e4bf7faeaca29.prettify",
+    "total_time_taken": 6.69
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16916677161513910273",
+    "creative_id": "CR18213923938226929665",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573541,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16916677161513910273?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "sitelink_texts": [
+        "Women's Apparel",
+        "25% Off Select Styles"
+      ],
+      "sitelink_descriptions": [
+        "The New Feeling of Performance Shop The Latest Women's Styles",
+        "Back To The Grind In New Gear. Work Harder With Back To School Essentials From UA "
+      ]
+    },
+    {
+      "rating": 4.8,
+      "reviews": 205,
+      "reviews_link": "https://www.google.com/shopping/ratings/account/metrics?q=underarmour.com&c=US&v=19",
+      "sitelink_texts": [
+        "Women's Apparel",
+        "25% Off Backpacks",
+        "25% Off Select Styles",
+        "Back To School Essentials"
+      ],
+      "sitelink_descriptions": [
+        "The New Feeling of Performance Shop The Latest Women's Styles"
+      ]
+    },
+    {
+      "title": "Under Armour",
+      "snippet": "Here’s The Under Armour Deal: 25% Off Backpacks. Don’t Miss Out",
+      "visible_link": "underarmour.com",
+      "advertiser_name": "Under Armour",
+      "address": "11401 Northwest 12th Street #455, Miami, Florida, 33172, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipMX_M3YJJuP-Jhg7ZGytBTL7oK8QXazc60XCv0a=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNzFy4GtghI7PXMCyUrM3ULmlWJMrbyp1IIDIVD=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPurvjcKt7kt-hQUKTPhSpAGKO2oKJy3ok9YymW=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPjTGC8kM5Xx0Suq7z3Q93Zg4iiX7GJDwmfMs-v=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMDMk8nJFmu4UvET35nil_QQ3KAgltEIoRhJAyH=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNEs--fhVbsGOF-flDKcU1WSogmrFIJ8nBx61RY=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipPoBZjax0BnKVwWEAqFJbBdSbmezhdg5KT3mu_k=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipO76RaFHKVphAJO-efSA-ZcUR6YeSlA1JenN5Pm=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipOXRk1ex61VDBxCpIHd19ny_wxkLdfhqv7UfK1x=k-no-"
+      ]
+    }
+  ]
+}

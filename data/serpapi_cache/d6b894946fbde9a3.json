@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7d00b4d17a8011c0279a25",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/lphGFz6pdWBd82DY8KtJDw/6a7d00b4d17a8011c0279a25.json",
+    "created_at": "2026-08-12 23:24:36 UTC",
+    "processed_at": "2026-08-12 23:24:36 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR01635544789225046017?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/lphGFz6pdWBd82DY8KtJDw/6a7d00b4d17a8011c0279a25.html",
+    "prettify_html_file": "https://serpapi.com/searches/lphGFz6pdWBd82DY8KtJDw/6a7d00b4d17a8011c0279a25.prettify",
+    "total_time_taken": 7.03
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR03556834903704207361",
+    "creative_id": "CR01635544789225046017",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786572165,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR03556834903704207361?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "sitelink_texts": [
+        "Golf Pro Shop",
+        "80% Off for New VIPs"
+      ],
+      "sitelink_descriptions": [
+        "Keep it cool on the course with our breathable, sweat-wicking styles"
+      ]
+    },
+    {
+      "title": "Fabletics",
+      "snippet": "Become a VIP member for exclusive deals on men’s activewear & apparel, plus monthly drops",
+      "visible_link": "fabletics.com",
+      "advertiser_name": "Fabletics",
+      "address": "7014 East Camelback Road Space 2041, Scottsdale, Arizona, 85251, US"
+    }
+  ]
+}

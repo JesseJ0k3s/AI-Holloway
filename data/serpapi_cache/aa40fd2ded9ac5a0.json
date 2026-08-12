@@ -1,0 +1,55 @@
+{
+  "search_metadata": {
+    "id": "6a7d00566e2237ab06af314d",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/YhIiP7J31oVJu_wr5OuPJg/6a7d00566e2237ab06af314d.json",
+    "created_at": "2026-08-12 23:23:02 UTC",
+    "processed_at": "2026-08-12 23:23:02 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR13494478831020408833/creative/CR16260864801062780929?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/YhIiP7J31oVJu_wr5OuPJg/6a7d00566e2237ab06af314d.html",
+    "prettify_html_file": "https://serpapi.com/searches/YhIiP7J31oVJu_wr5OuPJg/6a7d00566e2237ab06af314d.prettify",
+    "total_time_taken": 9.88
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR13494478831020408833",
+    "creative_id": "CR16260864801062780929",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573134,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR13494478831020408833?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/23615876063112017"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/23615876063112017"
+    },
+    {
+      "title": "Patagonia",
+      "snippet": "Designed for Women in Motion by Women in Motion.",
+      "visible_link": "<dynamically generated based on landing page content>",
+      "advertiser_name": "Patagonia",
+      "address": "700 South Caroline Street, Baltimore, Maryland, 21231, US"
+    },
+    {
+      "title": "Patagonia",
+      "snippet": "Designed for Women in Motion by Women in Motion.",
+      "visible_link": "<dynamically generated based on landing page content>",
+      "advertiser_name": "Patagonia",
+      "address": "34 East Andrews Drive Northwest, Atlanta, Georgia, 30305, US"
+    }
+  ]
+}

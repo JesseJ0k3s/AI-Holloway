@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7d00c22ddc43dd33977e35",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/TLypjL_w-8liGfL6a_cE_A/6a7d00c22ddc43dd33977e35.json",
+    "created_at": "2026-08-12 23:24:50 UTC",
+    "processed_at": "2026-08-12 23:24:50 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR00839002972007432193?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/TLypjL_w-8liGfL6a_cE_A/6a7d00c22ddc43dd33977e35.html",
+    "prettify_html_file": "https://serpapi.com/searches/TLypjL_w-8liGfL6a_cE_A/6a7d00c22ddc43dd33977e35.prettify",
+    "total_time_taken": 1.7
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR03556834903704207361",
+    "creative_id": "CR00839002972007432193",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786569589,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR03556834903704207361?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12750152625917941895"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12750152625917941895"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/12750152625917941895"
+    },
+    {
+      "title": "Fabletics",
+      "snippet": "Sculpt, soften, switch it up. Designed to keep pace with a woman who does it all.",
+      "visible_link": "fabletics.com",
+      "advertiser_name": "Fabletics",
+      "address": "11624 Rock Rose Avenue #110, Austin, Texas, 78758, US"
+    }
+  ]
+}

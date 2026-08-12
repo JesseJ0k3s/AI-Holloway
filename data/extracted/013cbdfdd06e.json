@@ -1,0 +1,19 @@
+{
+  "ad_id": "013cbdfdd06e",
+  "brand": "Gymshark",
+  "primary_claim_territory": "unclassified",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Short Length Guide - Learn to measure the inseam",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.1,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

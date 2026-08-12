@@ -1,0 +1,49 @@
+{
+  "search_metadata": {
+    "id": "6a7cff15d3982ce2f59d95aa",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/Yud7dfSeamTVR1xg9s-3Wg/6a7cff15d3982ce2f59d95aa.json",
+    "created_at": "2026-08-12 23:17:41 UTC",
+    "processed_at": "2026-08-12 23:17:41 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR08903884950307078145?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/Yud7dfSeamTVR1xg9s-3Wg/6a7cff15d3982ce2f59d95aa.html",
+    "prettify_html_file": "https://serpapi.com/searches/Yud7dfSeamTVR1xg9s-3Wg/6a7cff15d3982ce2f59d95aa.prettify",
+    "total_time_taken": 8.18
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR08903884950307078145",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786566296,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8050908608912312062"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/8050908608912312062"
+    },
+    {
+      "title": "Vuori",
+      "snippet": "Premium Performance Apparel, Without Sacrificing Comfort.",
+      "visible_link": "vuoriclothing.com",
+      "advertiser_name": "Vuori® Clothing",
+      "address": "350 San Lorenzo Ave Ste 2145, Coral Gables, FL, 33146, US"
+    }
+  ]
+}

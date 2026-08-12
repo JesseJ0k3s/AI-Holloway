@@ -1,0 +1,48 @@
+{
+  "search_metadata": {
+    "id": "6a7cff906372f30ddf06e7c2",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/tn7sQXeKem2kFXWYAV5mRg/6a7cff906372f30ddf06e7c2.json",
+    "created_at": "2026-08-12 23:19:44 UTC",
+    "processed_at": "2026-08-12 23:19:44 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR11907131700934606849?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/tn7sQXeKem2kFXWYAV5mRg/6a7cff906372f30ddf06e7c2.html",
+    "prettify_html_file": "https://serpapi.com/searches/tn7sQXeKem2kFXWYAV5mRg/6a7cff906372f30ddf06e7c2.prettify",
+    "total_time_taken": 0.5
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR16735076323512287233",
+    "creative_id": "CR11907131700934606849",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786575241,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR16735076323512287233?region=US",
+    "ad_funded_by": "Nike, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16214270681948428642"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16214270681948428642"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16214270681948428642"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/16214270681948428642"
+    }
+  ]
+}

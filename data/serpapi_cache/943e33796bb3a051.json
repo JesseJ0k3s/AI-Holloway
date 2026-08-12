@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7d00a903b1361b3b44a03f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/sUl0iYJB_0kDVObUYB5eIw/6a7d00a903b1361b3b44a03f.json",
+    "created_at": "2026-08-12 23:24:25 UTC",
+    "processed_at": "2026-08-12 23:24:25 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR00623664513060700161?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/sUl0iYJB_0kDVObUYB5eIw/6a7d00a903b1361b3b44a03f.html",
+    "prettify_html_file": "https://serpapi.com/searches/sUl0iYJB_0kDVObUYB5eIw/6a7d00a903b1361b3b44a03f.prettify",
+    "total_time_taken": 2.74
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR03556834903704207361",
+    "creative_id": "CR00623664513060700161",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573676,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR03556834903704207361?region=US",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13202799623696657336"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13202799623696657336"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/13202799623696657336"
+    },
+    {
+      "title": "Fabletics",
+      "snippet": "Get 80% off everything when you sign up as a new Fabletics VIP—don’t miss out!",
+      "visible_link": "fabletics.com",
+      "advertiser_name": "Fabletics",
+      "address": "400 South Baldwin Avenue Suite D6A, Arcadia, California, 91007, US"
+    }
+  ]
+}

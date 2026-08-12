@@ -1,0 +1,19 @@
+{
+  "ad_id": "CR00839002972007432193",
+  "brand": "Fabletics",
+  "primary_claim_territory": "comfort_feel",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Fabletics",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

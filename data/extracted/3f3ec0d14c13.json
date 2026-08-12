@@ -1,0 +1,21 @@
+{
+  "ad_id": "3f3ec0d14c13",
+  "brand": "Tracksmith",
+  "primary_claim_territory": "performance",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "Tracksmith® Running Tights.",
+  "audiences": [
+    "runners"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

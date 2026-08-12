@@ -1,0 +1,48 @@
+{
+  "search_metadata": {
+    "id": "6a7cff29bca7e5030737e462",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/MQMNegqQCfC9AbT2FMJQfg/6a7cff29bca7e5030737e462.json",
+    "created_at": "2026-08-12 23:18:01 UTC",
+    "processed_at": "2026-08-12 23:18:01 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04810021938799837185/creative/CR09253936707760291841?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/MQMNegqQCfC9AbT2FMJQfg/6a7cff29bca7e5030737e462.html",
+    "prettify_html_file": "https://serpapi.com/searches/MQMNegqQCfC9AbT2FMJQfg/6a7cff29bca7e5030737e462.prettify",
+    "total_time_taken": 1.01
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04810021938799837185",
+    "creative_id": "CR09253936707760291841",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786541313,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04810021938799837185?region=US",
+    "ad_funded_by": "Vuori, Inc.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2915416712606535083"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2915416712606535083"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2915416712606535083"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/2915416712606535083"
+    }
+  ]
+}

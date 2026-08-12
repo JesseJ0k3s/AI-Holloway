@@ -1,0 +1,56 @@
+{
+  "search_metadata": {
+    "id": "6a7d00807af899423f28faf5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/n5TOjsO1Ga14ikAf-FsTIw/6a7d00807af899423f28faf5.json",
+    "created_at": "2026-08-12 23:23:44 UTC",
+    "processed_at": "2026-08-12 23:23:44 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665/creative/CR03934405074968641537?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/n5TOjsO1Ga14ikAf-FsTIw/6a7d00807af899423f28faf5.html",
+    "prettify_html_file": "https://serpapi.com/searches/n5TOjsO1Ga14ikAf-FsTIw/6a7d00807af899423f28faf5.prettify",
+    "total_time_taken": 0.93
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR02037031623316209665",
+    "creative_id": "CR03934405074968641537",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786518389,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR02037031623316209665",
+    "ad_funded_by": "Tracksmith Corporation",
+    "regions": [
+      {
+        "region": 2724,
+        "region_name": "Spain",
+        "first_shown": 20260516,
+        "last_shown": 20260804
+      },
+      {
+        "region": 2191,
+        "region_name": "Croatia",
+        "first_shown": 20260515,
+        "last_shown": 20260808
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20260516,
+        "last_shown": 20260802
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/1085180362242270772"
+    }
+  ]
+}

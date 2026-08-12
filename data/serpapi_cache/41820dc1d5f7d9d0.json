@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cffb03d8701028c7cba70",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/oBgAi5frSoc6zIuJzjOWAw/6a7cffb03d8701028c7cba70.json",
+    "created_at": "2026-08-12 23:20:16 UTC",
+    "processed_at": "2026-08-12 23:20:16 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR10871259591425916929/creative/CR12913469820019671041?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/oBgAi5frSoc6zIuJzjOWAw/6a7cffb03d8701028c7cba70.html",
+    "prettify_html_file": "https://serpapi.com/searches/oBgAi5frSoc6zIuJzjOWAw/6a7cffb03d8701028c7cba70.prettify",
+    "total_time_taken": 3.84
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR10871259591425916929",
+    "creative_id": "CR12913469820019671041",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573886,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR10871259591425916929?region=US",
+    "ad_funded_by": "COLOR IMAGE APPAREL, INC.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/5420117673633030099"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/5420117673633030099"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/5420117673633030099"
+    },
+    {
+      "title": "ALO",
+      "snippet": "Go from studio to street. ALO pants deliver buttery-soft comfort & a tailored fit.",
+      "visible_link": "aloyoga.com",
+      "address": "1272 Woodward Ave Space D, Detroit, MI, 48226, US"
+    }
+  ]
+}

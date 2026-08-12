@@ -1,0 +1,59 @@
+{
+  "search_metadata": {
+    "id": "6a7cffc00e285d4301563179",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/0kY8xTQF6nE3BVmDjr5Unw/6a7cffc00e285d4301563179.json",
+    "created_at": "2026-08-12 23:20:32 UTC",
+    "processed_at": "2026-08-12 23:20:32 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR03722676862451712001?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/0kY8xTQF6nE3BVmDjr5Unw/6a7cffc00e285d4301563179.html",
+    "prettify_html_file": "https://serpapi.com/searches/0kY8xTQF6nE3BVmDjr5Unw/6a7cffc00e285d4301563179.prettify",
+    "total_time_taken": 2.51
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR01566006373894848513",
+    "creative_id": "CR03722676862451712001",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573797,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR01566006373894848513?region=US",
+    "ad_funded_by": "On AG",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15916696479496793132"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15916696479496793132"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15916696479496793132"
+    },
+    {
+      "title": "On Store Austin South Congress",
+      "snippet": "On Cloudnova 2: nuestras deportivas originales, ahora más cómodas gracias a la tecnología.",
+      "visible_link": "on.com",
+      "address": "1506 S Congress Ave, Austin, TX, 78704-2437, US",
+      "images": [
+        "https://lh3.googleusercontent.com/p/AF1QipNzCT-8hDoPRS09uCMB_7qF2sKPHLy8GUirC-Wz=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMWxMl6iUUI9Kv_Yb4rFgnbTo4LIkFlZJqDfmdw=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMk9uUZ3w8dBJdyQj0SPDPtdP4K6HbxspoFPg4p=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipNLXfHkFIulQ9dwuTC7drMdNlUv7p8o-Lq9qQTe=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipMIBIEjKBIcQkQp3nc2nJT9nDmh9visO5TDhJms=k-no-",
+        "https://lh3.googleusercontent.com/p/AF1QipN6WAbm3Eea2HroSb0jG2Tn8TbHSCCtWstC_mle=k-no-"
+      ]
+    }
+  ]
+}

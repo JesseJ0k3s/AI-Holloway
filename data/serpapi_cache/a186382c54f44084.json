@@ -1,0 +1,48 @@
+{
+  "search_metadata": {
+    "id": "6a7cffb53047f350fb94950a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/tGzrd3MeX8rkELQ9yuX8gQ/6a7cffb53047f350fb94950a.json",
+    "created_at": "2026-08-12 23:20:21 UTC",
+    "processed_at": "2026-08-12 23:20:21 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR10871259591425916929/creative/CR10973908081439670273?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/tGzrd3MeX8rkELQ9yuX8gQ/6a7cffb53047f350fb94950a.html",
+    "prettify_html_file": "https://serpapi.com/searches/tGzrd3MeX8rkELQ9yuX8gQ/6a7cffb53047f350fb94950a.prettify",
+    "total_time_taken": 2.18
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR10871259591425916929",
+    "creative_id": "CR10973908081439670273",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573827,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR10871259591425916929?region=US",
+    "ad_funded_by": "COLOR IMAGE APPAREL, INC.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15791815622932177560"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/15791815622932177560"
+    },
+    {
+      "title": "ALO",
+      "snippet": "Go from studio to street with new dresses, leggings, jackets, & accessories from ALO.",
+      "visible_link": "aloyoga.com",
+      "address": "1400 Willowbrook Blvd, Wayne, NJ, 07470, US"
+    }
+  ]
+}

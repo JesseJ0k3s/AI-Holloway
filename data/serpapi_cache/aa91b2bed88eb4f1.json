@@ -1,0 +1,93 @@
+{
+  "search_metadata": {
+    "id": "6a7d008f77e3d9b385bff713",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/XAGQmEmiAOjEyEKpP0XbYA/6a7d008f77e3d9b385bff713.json",
+    "created_at": "2026-08-12 23:23:59 UTC",
+    "processed_at": "2026-08-12 23:23:59 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR09451688426681139201?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/XAGQmEmiAOjEyEKpP0XbYA/6a7d008f77e3d9b385bff713.html",
+    "prettify_html_file": "https://serpapi.com/searches/XAGQmEmiAOjEyEKpP0XbYA/6a7d008f77e3d9b385bff713.prettify",
+    "total_time_taken": 3.48
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR04323445746671026177",
+    "creative_id": "CR09451688426681139201",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573328,
+    "region_name": "anywhere",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR04323445746671026177",
+    "regions": [
+      {
+        "region": 2620,
+        "region_name": "Portugal",
+        "first_shown": 20250509,
+        "last_shown": 20260804
+      },
+      {
+        "region": 2300,
+        "region_name": "Greece",
+        "first_shown": 20250508,
+        "last_shown": 20260806
+      },
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2392,
+        "region_name": "Japan",
+        "last_shown": 20260617
+      },
+      {
+        "region": 2372,
+        "region_name": "Ireland",
+        "first_shown": 20250509,
+        "last_shown": 20260804
+      },
+      {
+        "region": 2484,
+        "region_name": "Mexico",
+        "last_shown": 20260812
+      },
+      {
+        "region": 2276,
+        "region_name": "Germany",
+        "first_shown": 20250511,
+        "last_shown": 20260804
+      },
+      {
+        "region": 2208,
+        "region_name": "Denmark",
+        "first_shown": 20250525,
+        "last_shown": 20260804
+      },
+      {
+        "region": 2528,
+        "region_name": "Netherlands",
+        "first_shown": 20250512,
+        "last_shown": 20260804
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7536369513776324822"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7536369513776324822"
+    },
+    {
+      "title": "New Balance",
+      "snippet": "Our Selection Of Walking Shoes Can Offer You The Style and Comfortable Fit You Need.",
+      "visible_link": "newbalance.com",
+      "advertiser_name": "New Balance",
+      "address": "New Balance, 380 W Main St, Avon, CT, 06001-3690, US"
+    }
+  ]
+}

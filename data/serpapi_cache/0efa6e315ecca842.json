@@ -1,0 +1,51 @@
+{
+  "search_metadata": {
+    "id": "6a7cffbb3d870101497de12a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/vRceH0swXMTKJVLTv2nLYA/6a7cffbb3d870101497de12a.json",
+    "created_at": "2026-08-12 23:20:27 UTC",
+    "processed_at": "2026-08-12 23:20:27 UTC",
+    "google_ads_transparency_center_ad_details_url": "https://adstransparency.google.com/advertiser/AR10871259591425916929/creative/CR05213108141402619905?region=2840",
+    "raw_html_file": "https://serpapi.com/searches/vRceH0swXMTKJVLTv2nLYA/6a7cffbb3d870101497de12a.html",
+    "prettify_html_file": "https://serpapi.com/searches/vRceH0swXMTKJVLTv2nLYA/6a7cffbb3d870101497de12a.prettify",
+    "total_time_taken": 3.9
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center_ad_details",
+    "advertiser_id": "AR10871259591425916929",
+    "creative_id": "CR05213108141402619905",
+    "region": "2840"
+  },
+  "search_information": {
+    "format": "text",
+    "last_shown": 1786573679,
+    "region": 2840,
+    "region_name": "United States",
+    "more_ads_by_advertiser": "https://adstransparency.google.com/advertiser/AR10871259591425916929?region=US",
+    "ad_funded_by": "COLOR IMAGE APPAREL, INC.",
+    "regions": [
+      {
+        "region": 2840,
+        "region_name": "United States",
+        "last_shown": 20260812
+      }
+    ]
+  },
+  "ad_creatives": [
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7934053633073504805"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7934053633073504805"
+    },
+    {
+      "image": "https://tpc.googlesyndication.com/archive/simgad/7934053633073504805"
+    },
+    {
+      "title": "ALO",
+      "snippet": "Go from studio to street with new leggings, jackets, bras, & accessories from ALO.",
+      "visible_link": "aloyoga.com",
+      "address": "4999 Old Orchard Shopping Ctr Ste N18, Skokie, IL, 60077, US"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR17426733372914270209?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -39,7 +39,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR12238366038432940033?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -61,7 +61,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR02124933798385680385?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -83,7 +83,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR13089407082216554497?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -105,7 +105,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR16345465546440966145?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -127,7 +127,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR03125160058749452289?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -149,7 +149,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR10804997394328977409?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -171,7 +171,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR00190577542988562433?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -193,7 +193,7 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR06765649646795620353?region=US",
     "notes": "captured_by=claude-browser"
   },
@@ -215,8 +215,206 @@
       "US"
     ],
     "provenance": "captured",
-    "captured_at": "2026-08-12T21:33:17.719503+00:00",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
     "source_url": "https://adstransparency.google.com/advertiser/AR01614014350098432001/creative/CR18246378497821900801?region=US",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Gymshark",
+    "platform": "google_search",
+    "headline": "Gymshark Official Site - The Gym Is Everything We Do",
+    "body": "Achieve Your Best In & Out Of The Gym With Our High Quality Products & Unrivalled Design.",
+    "ad_id": "d621e1ef6864",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.gymshark.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Gymshark",
+    "platform": "google_search",
+    "headline": "The Perfect Gym Styles - We're The Gymwear Brand - Gymshark",
+    "body": "However You Gym, We've Got The Clothes, Accessories & Community For You. Shop Gymshark Gym Apparel, Available In A Range Of Colors & Styles.",
+    "ad_id": "9622caed7f9a",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.gymshark.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Gymshark",
+    "platform": "google_search",
+    "headline": "Gymshark Official Store - Gym Clothes Store",
+    "body": "Unlock your full potential with our game-changing workout clothes Shop gym clothing for the gym, running & everything in-between. New Releases. Free Returns.",
+    "ad_id": "4aa599462a32",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.gymshark.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Gymshark",
+    "platform": "google_search",
+    "headline": "Socks Are We Supposed To Be Wearing? The Great Gen Z Debate",
+    "body": "Are ankle socks out of style? TikTok might be telling you they are a millennial giveaway, read on to find out whether it's time to swap them out for Crew socks.",
+    "ad_id": "005ff4f41794",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "eu.gymshark.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Gymshark",
+    "platform": "google_search",
+    "headline": "Short Length Guide - Learn to measure the inseam",
+    "body": "Find the perfect short length with our guide, learn to measure the inseam, choose a short length based on activity, and more",
+    "ad_id": "013cbdfdd06e",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "row.gymshark.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR01822115136316375041?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Tracksmith",
+    "platform": "google_search",
+    "headline": "Running Pants For Women - Essentials For Serious Runners",
+    "body": "Premium Running Bottoms Built For Training, Racing, & Rest Days.",
+    "ad_id": "3b701dbcf7af",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.tracksmith.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Tracksmith",
+    "platform": "google_search",
+    "headline": "Tracksmith® Running Tights.",
+    "body": "Running Is Your Culture. Find The Perfect Tight For Focused Effort In Any Weather.",
+    "ad_id": "3f3ec0d14c13",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.tracksmith.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Tracksmith",
+    "platform": "google_search",
+    "headline": "Free Returns & Exchanges - Stay Ready For Race Day",
+    "body": "Running Essentials To Keep You Race Day Ready. Free Shipping On Orders Over $150. Buy Now.",
+    "ad_id": "8c0b5b273014",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.tracksmith.com/men/running-shorts",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665?region=US&format=TEXT",
+    "notes": "captured_by=claude-browser"
+  },
+  {
+    "brand": "Tracksmith",
+    "platform": "google_search",
+    "headline": "Made For Miles - For Training & Racing",
+    "body": "Running Essentials To Keep You Race Day Ready. Free Shipping On Orders Over $200. Buy Now.",
+    "ad_id": "237f04c217fe",
+    "advertiser_id": "",
+    "cta": null,
+    "landing_url": "www.tracksmith.com",
+    "creative_type": "text",
+    "media_url": null,
+    "first_seen": null,
+    "last_seen": null,
+    "still_running": true,
+    "regions": [
+      "US"
+    ],
+    "provenance": "captured",
+    "captured_at": "2026-08-12T23:27:58.092034+00:00",
+    "source_url": "https://adstransparency.google.com/advertiser/AR02037031623316209665?region=US&format=TEXT",
     "notes": "captured_by=claude-browser"
   }
 ]

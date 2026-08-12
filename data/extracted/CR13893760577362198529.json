@@ -1,0 +1,21 @@
+{
+  "ad_id": "CR13893760577362198529",
+  "brand": "On",
+  "primary_claim_territory": "performance",
+  "secondary_claim_territories": [],
+  "claim_verbatim": "On Store Austin South Congress",
+  "audiences": [
+    "runners"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

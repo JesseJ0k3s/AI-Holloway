@@ -1,0 +1,26 @@
+{
+  "ad_id": "CR08324709512384610305",
+  "brand": "On",
+  "primary_claim_territory": "price_value",
+  "secondary_claim_territories": [
+    "comfort_feel",
+    "performance"
+  ],
+  "claim_verbatim": "",
+  "audiences": [
+    "runners",
+    "strength_gym",
+    "outdoor_alpine"
+  ],
+  "proof_points": [
+    "scarcity_urgency"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

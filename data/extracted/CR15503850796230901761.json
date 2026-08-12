@@ -1,0 +1,22 @@
+{
+  "ad_id": "CR15503850796230901761",
+  "brand": "Patagonia",
+  "primary_claim_territory": "durability_quality",
+  "secondary_claim_territories": [
+    "comfort_feel",
+    "performance"
+  ],
+  "claim_verbatim": "Patagonia Fulton Market",
+  "audiences": [],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}
