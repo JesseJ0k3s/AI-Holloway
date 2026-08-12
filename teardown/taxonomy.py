@@ -89,22 +89,40 @@ FUNNEL_STAGES: List[str] = ["awareness", "consideration", "conversion"]
 # --------------------------------------------------------------------------
 # The competitive set
 # --------------------------------------------------------------------------
-# `aliases` are used to match advertiser names as they appear in the
-# Transparency Center, which are often legal entity names.
+# `aliases` match advertiser names as they appear in the Transparency Center,
+# which are often legal entity names.
+#
+# `advertiser_id` is the Google advertiser ID (the AR... in the Transparency
+# Center URL). PIN THESE. Searching by brand name picks the wrong legal entity
+# distressingly often -- searching "Alo Yoga" returns "Alo Yoga Mexico" first,
+# and "Nike" returns an account flagged "multiple advertiser accounts have a
+# similar name". A wrong entity silently produces a matrix for the wrong market.
+#
+# To fill one in: open adstransparency.google.com, search the brand, click the
+# result whose "Based in" and ad count look right, and copy the AR id out of the
+# address bar. See docs/DATA_CAPTURE.md.
 
 BRANDS: Dict[str, Dict[str, object]] = {
-    "lululemon": {"aliases": ["lululemon athletica", "lululemon usa"], "archetype": "premium studio incumbent"},
-    "Nike": {"aliases": ["nike", "nike inc", "nike usa"], "archetype": "global performance giant"},
-    "Alo Yoga": {"aliases": ["alo", "alo yoga", "color image apparel"], "archetype": "aesthetic/celebrity yoga"},
-    "Vuori": {"aliases": ["vuori", "vuori clothing"], "archetype": "comfort-first challenger"},
-    "On": {"aliases": ["on running", "on ag", "on holding"], "archetype": "technical run insurgent"},
-    "Under Armour": {"aliases": ["under armour", "ua"], "archetype": "performance value"},
-    "Gymshark": {"aliases": ["gymshark", "gym shark"], "archetype": "gym-native community brand"},
-    "Arc'teryx": {"aliases": ["arcteryx", "arc'teryx", "amer sports"], "archetype": "alpine technical premium"},
-    "Patagonia": {"aliases": ["patagonia", "patagonia inc"], "archetype": "values-led outdoor"},
-    "Tracksmith": {"aliases": ["tracksmith"], "archetype": "running heritage niche"},
-    "New Balance": {"aliases": ["new balance", "new balance athletics"], "archetype": "heritage crossover"},
-    "Fabletics": {"aliases": ["fabletics", "techstyle"], "archetype": "membership value"},
+    "lululemon": {
+        "aliases": ["lululemon athletica", "lululemon usa"],
+        "archetype": "premium studio incumbent",
+        "advertiser_id": "AR01614014350098432001",  # lululemon athletica canada inc., ~5K text ads
+    },
+    "Nike": {"aliases": ["nike", "nike inc", "nike usa"], "archetype": "global performance giant", "advertiser_id": ""},
+    "Alo Yoga": {"aliases": ["alo", "alo yoga", "color image apparel"], "archetype": "aesthetic/celebrity yoga", "advertiser_id": ""},
+    "Vuori": {
+        "aliases": ["vuori", "vuori clothing"],
+        "archetype": "comfort-first challenger",
+        "advertiser_id": "AR04810021938799837185",  # Vuori, Inc. (United States), ~2K ads
+    },
+    "On": {"aliases": ["on running", "on ag", "on holding"], "archetype": "technical run insurgent", "advertiser_id": ""},
+    "Under Armour": {"aliases": ["under armour", "ua"], "archetype": "performance value", "advertiser_id": ""},
+    "Gymshark": {"aliases": ["gymshark", "gym shark"], "archetype": "gym-native community brand", "advertiser_id": ""},
+    "Arc'teryx": {"aliases": ["arcteryx", "arc'teryx", "amer sports"], "archetype": "alpine technical premium", "advertiser_id": ""},
+    "Patagonia": {"aliases": ["patagonia", "patagonia inc"], "archetype": "values-led outdoor", "advertiser_id": ""},
+    "Tracksmith": {"aliases": ["tracksmith"], "archetype": "running heritage niche", "advertiser_id": ""},
+    "New Balance": {"aliases": ["new balance", "new balance athletics"], "archetype": "heritage crossover", "advertiser_id": ""},
+    "Fabletics": {"aliases": ["fabletics", "techstyle"], "archetype": "membership value", "advertiser_id": ""},
 }
 
 
