@@ -106,23 +106,67 @@ BRANDS: Dict[str, Dict[str, object]] = {
     "lululemon": {
         "aliases": ["lululemon athletica", "lululemon usa"],
         "archetype": "premium studio incumbent",
-        "advertiser_id": "AR01614014350098432001",  # lululemon athletica canada inc., ~5K text ads
+        "advertiser_id": "AR01614014350098432001",  # lululemon athletica canada inc. (CA)
     },
-    "Nike": {"aliases": ["nike", "nike inc", "nike usa"], "archetype": "global performance giant", "advertiser_id": ""},
-    "Alo Yoga": {"aliases": ["alo", "alo yoga", "color image apparel"], "archetype": "aesthetic/celebrity yoga", "advertiser_id": ""},
+    "Nike": {
+        "aliases": ["nike", "nike inc", "nike usa"],
+        "archetype": "global performance giant",
+        "advertiser_id": "AR16735076323512287233",  # Nike, Inc. (US) -- flagged multi-account; this one runs all 40 loaded ads
+    },
+    "Alo Yoga": {
+        "aliases": ["alo", "alo yoga", "color image apparel"],
+        "archetype": "aesthetic/celebrity yoga",
+        # NOT "Alo Yoga Mexico", which is what searching "Alo Yoga" returns.
+        "advertiser_id": "AR10871259591425916929",  # COLOR IMAGE APPAREL, INC. (US), ~3K ads
+    },
     "Vuori": {
         "aliases": ["vuori", "vuori clothing"],
         "archetype": "comfort-first challenger",
-        "advertiser_id": "AR04810021938799837185",  # Vuori, Inc. (United States), ~2K ads
+        "advertiser_id": "AR04810021938799837185",  # Vuori, Inc. (US), ~2K ads
     },
-    "On": {"aliases": ["on running", "on ag", "on holding"], "archetype": "technical run insurgent", "advertiser_id": ""},
-    "Under Armour": {"aliases": ["under armour", "ua"], "archetype": "performance value", "advertiser_id": ""},
-    "Gymshark": {"aliases": ["gymshark", "gym shark"], "archetype": "gym-native community brand", "advertiser_id": ""},
-    "Arc'teryx": {"aliases": ["arcteryx", "arc'teryx", "amer sports"], "archetype": "alpine technical premium", "advertiser_id": ""},
-    "Patagonia": {"aliases": ["patagonia", "patagonia inc"], "archetype": "values-led outdoor", "advertiser_id": ""},
-    "Tracksmith": {"aliases": ["tracksmith"], "archetype": "running heritage niche", "advertiser_id": ""},
-    "New Balance": {"aliases": ["new balance", "new balance athletics"], "archetype": "heritage crossover", "advertiser_id": ""},
-    "Fabletics": {"aliases": ["fabletics", "techstyle"], "archetype": "membership value", "advertiser_id": ""},
+    "On": {
+        "aliases": ["on running", "on ag", "on holding"],
+        "archetype": "technical run insurgent",
+        "advertiser_id": "AR01566006373894848513",  # On AG (CH), ~3.8K ads
+    },
+    "Under Armour": {
+        "aliases": ["under armour", "ua"],
+        "archetype": "performance value",
+        "advertiser_id": "AR16916677161513910273",  # Under Armour, Inc. (US) -- 3 accounts; this runs 37 of 40
+    },
+    "Gymshark": {
+        "aliases": ["gymshark", "gym shark"],
+        "archetype": "gym-native community brand",
+        "advertiser_id": "AR01822115136316375041",  # Gymshark USA Inc (US), ~5K ads -- not Gymshark Ltd (UK, ~16)
+    },
+    "Arc'teryx": {
+        "aliases": ["arcteryx", "arc'teryx", "amer sports"],
+        "archetype": "alpine technical premium",
+        "advertiser_id": "AR17137590075693989889",  # ARC'TERYX Equipment, Amer Sports Canada Inc. (CA)
+    },
+    "Patagonia": {
+        "aliases": ["patagonia", "patagonia inc"],
+        "archetype": "values-led outdoor",
+        "advertiser_id": "AR13494478831020408833",  # PATAGONIA, INC. (US)
+    },
+    "Tracksmith": {
+        "aliases": ["tracksmith"],
+        "archetype": "running heritage niche",
+        "advertiser_id": "AR02037031623316209665",  # Tracksmith Corporation (US), ~600 ads
+    },
+    "New Balance": {
+        "aliases": ["new balance", "new balance athletics"],
+        "archetype": "heritage crossover",
+        # Two US entities exist; "New Balance Athletics, Inc." has only ~55 ads.
+        "advertiser_id": "AR04323445746671026177",  # New Balance Athletic Shoe, Inc. (US), ~2K ads
+    },
+    "Fabletics": {
+        "aliases": ["fabletics", "techstyle", "just fabulous"],
+        "archetype": "membership value",
+        # Searching "Fabletics" only finds FABLETICS LTD (UK, ~5 ads). The US
+        # advertiser is the JustFab/TechStyle operating entity.
+        "advertiser_id": "AR03556834903704207361",  # Just Fabulous, Inc. (US), ~3K ads
+    },
 }
 
 

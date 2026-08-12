@@ -43,15 +43,43 @@ The filters are URL parameters, so you can bookmark a brand's text ads directly:
 https://adstransparency.google.com/advertiser/<ADVERTISER_ID>?region=US&format=TEXT
 ```
 
-Confirmed advertiser IDs (verified as the correct US-serving entity):
+All twelve advertiser IDs are confirmed and pinned in `teardown/taxonomy.py`. You should
+not need to look any of these up again:
 
-| Brand | Advertiser ID | Volume |
-|---|---|---|
-| lululemon | `AR01614014350098432001` | ~5K text ads |
-| Vuori | `AR04810021938799837185` | ~2K ads |
+| Brand | Advertiser ID | Legal entity (as listed) | Based in |
+|---|---|---|---|
+| lululemon | `AR01614014350098432001` | lululemon athletica canada inc. | Canada |
+| Nike | `AR16735076323512287233` | Nike, Inc. | US |
+| Alo Yoga | `AR10871259591425916929` | COLOR IMAGE APPAREL, INC. | US |
+| Vuori | `AR04810021938799837185` | Vuori, Inc. | US |
+| On | `AR01566006373894848513` | On AG | Switzerland |
+| Under Armour | `AR16916677161513910273` | Under Armour, Inc. | US |
+| Gymshark | `AR01822115136316375041` | Gymshark USA Inc | US |
+| Arc'teryx | `AR17137590075693989889` | ARC'TERYX Equipment (Amer Sports Canada) | Canada |
+| Patagonia | `AR13494478831020408833` | PATAGONIA, INC. | US |
+| Tracksmith | `AR02037031623316209665` | Tracksmith Corporation | US |
+| New Balance | `AR04323445746671026177` | New Balance Athletic Shoe, Inc. | US |
+| Fabletics | `AR03556834903704207361` | Just Fabulous, Inc. | US |
 
-To find the rest: search the brand, click the right result, and read the ID out of the
-address bar. Add it to this table so nobody repeats the lookup.
+Three of these are **not** what a name search returns, and each would have quietly put
+the wrong market in the matrix:
+
+- **Alo Yoga** — searching "Alo Yoga" returns only *Alo Yoga México*. The US advertiser
+  is **COLOR IMAGE APPAREL, INC.**, which shares no words with the brand name.
+- **Fabletics** — searching "Fabletics" returns only *FABLETICS LTD* (UK, ~5 ads). The
+  US advertiser is **Just Fabulous, Inc.**, the JustFab/TechStyle operating company.
+  Found by searching the *domain* `fabletics.com` instead of the brand.
+- **New Balance** — two US entities. *New Balance Athletics, Inc.* has ~55 ads;
+  *New Balance Athletic Shoe, Inc.* has ~2K. Pick by ad count, not by name.
+
+Foreign-registered entities are normal and correct: lululemon (Canada), On
+(Switzerland) and Arc'teryx (Canada) all serve the US market. `Based in` is where the
+company is registered; the `region` filter is what controls where the ads ran.
+
+Two brands are flagged **"multiple advertiser accounts have a similar name"** (Nike,
+Under Armour). Clicking those does not open an advertiser page — it renders a merged
+result set. Read the advertiser ID off the ad cards instead; for both, one account ran
+the overwhelming majority of loaded ads (Nike 40/40, Under Armour 37/40).
 
 ### ⚠️ Picking the wrong advertiser entity is the #1 way to corrupt this dataset
 
