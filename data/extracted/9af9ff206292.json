@@ -1,0 +1,24 @@
+{
+  "ad_id": "9af9ff206292",
+  "brand": "Gymshark",
+  "primary_claim_territory": "price_value",
+  "secondary_claim_territories": [
+    "style_versatility"
+  ],
+  "claim_verbatim": "Sale Ends Soon",
+  "audiences": [
+    "value_seekers"
+  ],
+  "proof_points": [
+    "free_returns_shipping",
+    "scarcity_urgency"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

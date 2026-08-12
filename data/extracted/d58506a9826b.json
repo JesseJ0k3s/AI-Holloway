@@ -1,0 +1,21 @@
+{
+  "ad_id": "d58506a9826b",
+  "brand": "Arc'teryx",
+  "primary_claim_territory": "durability_quality",
+  "secondary_claim_territories": [
+    "heritage_craft"
+  ],
+  "claim_verbatim": "Built To Last A Lifetime",
+  "audiences": [],
+  "proof_points": [
+    "guarantee_warranty"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

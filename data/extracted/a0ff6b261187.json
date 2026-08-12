@@ -1,0 +1,23 @@
+{
+  "ad_id": "a0ff6b261187",
+  "brand": "Gymshark",
+  "primary_claim_territory": "community_identity",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Lifting Gear For The Gym",
+  "audiences": [
+    "strength_gym"
+  ],
+  "proof_points": [
+    "social_proof_scale"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

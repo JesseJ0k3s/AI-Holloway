@@ -1,0 +1,24 @@
+{
+  "ad_id": "5c3a8480d49f",
+  "brand": "New Balance",
+  "primary_claim_territory": "price_value",
+  "secondary_claim_territories": [
+    "style_versatility"
+  ],
+  "claim_verbatim": "Everyday Sneakers On Sale",
+  "audiences": [
+    "athleisure_lifestyle",
+    "value_seekers"
+  ],
+  "proof_points": [
+    "free_returns_shipping"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

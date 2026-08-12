@@ -1,0 +1,23 @@
+{
+  "ad_id": "1ed0c3e8610b",
+  "brand": "Tracksmith",
+  "primary_claim_territory": "heritage_craft",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Running Apparel For Racers",
+  "audiences": [
+    "runners"
+  ],
+  "proof_points": [
+    "none"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

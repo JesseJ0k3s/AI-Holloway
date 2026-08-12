@@ -1,0 +1,134 @@
+"""The messaging taxonomy for fitness apparel.
+
+This is the strategic heart of the product and it is deliberately plain Python
+so a non-engineer can own it. Editing the wording here changes what the whole
+system looks for -- no other file needs to change.
+
+Rule of thumb: territories should be MECE enough that a human marketer would
+put a given ad in exactly one of them. If two categories keep fighting over the
+same ads, merge them.
+"""
+
+from __future__ import annotations
+
+from typing import Dict, List
+
+# --------------------------------------------------------------------------
+# Claim territories -- the columns of the messaging matrix
+# --------------------------------------------------------------------------
+
+CLAIM_TERRITORIES: Dict[str, str] = {
+    "performance": "Makes you faster/stronger/better at the activity itself.",
+    "comfort_feel": "How it feels on the body: softness, weightlessness, buttery, second-skin.",
+    "style_versatility": "How it looks; wearable beyond the workout; goes gym-to-street.",
+    "fit_inclusivity": "Fit quality, size range, body diversity, 'fits every body'.",
+    "technical_innovation": "Proprietary fabric/engineering as the hero: named tech, patents.",
+    "durability_quality": "Built to last, repairable, lifetime guarantee, cost-per-wear.",
+    "sustainability_ethics": "Recycled/organic materials, carbon, labor practices, B Corp.",
+    "community_identity": "Who you become / who you belong to. Tribe, movement, run club.",
+    "heritage_craft": "Founded in, made by, obsessive craft, authenticity, origin story.",
+    "price_value": "Discounts, sales, free shipping, bundles, 'from $X', affordability.",
+    "convenience_service": "Free returns, fast shipping, easy exchange, try-before-you-buy.",
+    "newness_seasonal": "Just dropped, new arrivals, seasonal collection, limited edition.",
+}
+
+# --------------------------------------------------------------------------
+# Audiences -- the rows of the audience matrix
+# --------------------------------------------------------------------------
+
+AUDIENCES: Dict[str, str] = {
+    "runners": "Road/trail running, marathon training, race prep.",
+    "yoga_studio": "Yoga, pilates, barre, studio fitness.",
+    "strength_gym": "Lifting, CrossFit, bodybuilding, gym training.",
+    "outdoor_alpine": "Hiking, climbing, skiing, mountain and technical outdoor.",
+    "athleisure_lifestyle": "Everyday wear, travel, work-from-home, brunch-to-gym.",
+    "team_field_sport": "Football, basketball, soccer, training for team sports.",
+    "women_explicit": "Copy explicitly addressed to women.",
+    "men_explicit": "Copy explicitly addressed to men.",
+    "plus_extended_size": "Explicitly addresses extended or inclusive sizing.",
+    "gen_z_young": "Youth-coded language, trend-driven, campus, TikTok-native.",
+    "value_seekers": "Deal-motivated, sale-driven, budget-conscious.",
+    "gift_givers": "Gifting occasions, holiday, 'gifts for'.",
+}
+
+# --------------------------------------------------------------------------
+# Proof points -- what a brand offers as evidence for its claim
+# --------------------------------------------------------------------------
+
+PROOF_TYPES: Dict[str, str] = {
+    "technical_spec": "Named fabric/tech, weights, measurements, construction detail.",
+    "athlete_pro": "Pro athletes, teams, Olympians, coaches as validation.",
+    "awards_press": "Editorial awards, 'best of' lists, magazine mentions.",
+    "customer_reviews": "Star ratings, review counts, quoted customers.",
+    "social_proof_scale": "Bestseller, 'X million sold', 'most popular', waitlists.",
+    "certification": "B Corp, bluesign, Fair Trade, OEKO-TEX, recycled content claims.",
+    "guarantee_warranty": "Lifetime warranty, quality promise, repair programs.",
+    "free_returns_shipping": "Free shipping/returns/exchanges as risk reversal.",
+    "comparison": "Explicit or implied comparison to a competitor or category.",
+    "founder_origin": "Founder story, place of origin, years in business.",
+    "scarcity_urgency": "Limited stock, ends soon, back in stock, drop timing.",
+    "none": "Asserts a claim with no evidence offered.",
+}
+
+# --------------------------------------------------------------------------
+# Secondary dimensions
+# --------------------------------------------------------------------------
+
+TONES: Dict[str, str] = {
+    "performance_serious": "Earnest, athletic, achievement-focused.",
+    "aspirational_lifestyle": "Elevated, calm, identity-forward.",
+    "playful_irreverent": "Jokes, wink, casual voice.",
+    "technical_authoritative": "Spec-forward, engineer's voice.",
+    "values_driven": "Mission, planet, ethics-forward.",
+    "urgent_promotional": "Sale-driven, exclamation-heavy, deadline pressure.",
+    "warm_inclusive": "Welcoming, body-positive, 'everyone' framing.",
+}
+
+FUNNEL_STAGES: List[str] = ["awareness", "consideration", "conversion"]
+
+# --------------------------------------------------------------------------
+# The competitive set
+# --------------------------------------------------------------------------
+# `aliases` are used to match advertiser names as they appear in the
+# Transparency Center, which are often legal entity names.
+
+BRANDS: Dict[str, Dict[str, object]] = {
+    "lululemon": {"aliases": ["lululemon athletica", "lululemon usa"], "archetype": "premium studio incumbent"},
+    "Nike": {"aliases": ["nike", "nike inc", "nike usa"], "archetype": "global performance giant"},
+    "Alo Yoga": {"aliases": ["alo", "alo yoga", "color image apparel"], "archetype": "aesthetic/celebrity yoga"},
+    "Vuori": {"aliases": ["vuori", "vuori clothing"], "archetype": "comfort-first challenger"},
+    "On": {"aliases": ["on running", "on ag", "on holding"], "archetype": "technical run insurgent"},
+    "Under Armour": {"aliases": ["under armour", "ua"], "archetype": "performance value"},
+    "Gymshark": {"aliases": ["gymshark", "gym shark"], "archetype": "gym-native community brand"},
+    "Arc'teryx": {"aliases": ["arcteryx", "arc'teryx", "amer sports"], "archetype": "alpine technical premium"},
+    "Patagonia": {"aliases": ["patagonia", "patagonia inc"], "archetype": "values-led outdoor"},
+    "Tracksmith": {"aliases": ["tracksmith"], "archetype": "running heritage niche"},
+    "New Balance": {"aliases": ["new balance", "new balance athletics"], "archetype": "heritage crossover"},
+    "Fabletics": {"aliases": ["fabletics", "techstyle"], "archetype": "membership value"},
+}
+
+
+def canonical_brand(name: str) -> str:
+    """Map a messy advertiser name onto our canonical brand label."""
+    n = (name or "").strip().lower()
+    for brand, meta in BRANDS.items():
+        if n == brand.lower():
+            return brand
+        for alias in meta["aliases"]:  # type: ignore[index]
+            if alias in n or n in alias:
+                return brand
+    return name.strip() or "unknown"
+
+
+def validate(kind: str, values: List[str]) -> List[str]:
+    """Drop any label the model invented that is not in our taxonomy.
+
+    Keeps the matrix from growing junk columns when the LLM gets creative.
+    """
+    allowed = {
+        "territory": CLAIM_TERRITORIES,
+        "audience": AUDIENCES,
+        "proof": PROOF_TYPES,
+        "tone": TONES,
+    }[kind]
+    return [v for v in values if v in allowed]

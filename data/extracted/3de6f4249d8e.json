@@ -1,0 +1,25 @@
+{
+  "ad_id": "3de6f4249d8e",
+  "brand": "Vuori",
+  "primary_claim_territory": "performance",
+  "secondary_claim_territories": [
+    "style_versatility"
+  ],
+  "claim_verbatim": "Performance Apparel For Men",
+  "audiences": [
+    "strength_gym",
+    "athleisure_lifestyle",
+    "men_explicit"
+  ],
+  "proof_points": [
+    "free_returns_shipping"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "conversion",
+  "tone": "urgent_promotional",
+  "has_offer": true,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

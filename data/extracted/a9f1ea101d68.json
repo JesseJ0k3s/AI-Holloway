@@ -1,0 +1,21 @@
+{
+  "ad_id": "a9f1ea101d68",
+  "brand": "Nike",
+  "primary_claim_territory": "technical_innovation",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Train Like The Pros",
+  "audiences": [],
+  "proof_points": [
+    "athlete_pro"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}

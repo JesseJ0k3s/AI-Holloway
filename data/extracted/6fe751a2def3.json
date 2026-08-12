@@ -1,0 +1,24 @@
+{
+  "ad_id": "6fe751a2def3",
+  "brand": "Under Armour",
+  "primary_claim_territory": "technical_innovation",
+  "secondary_claim_territories": [
+    "performance"
+  ],
+  "claim_verbatim": "Gear Built For Athletes",
+  "audiences": [
+    "strength_gym",
+    "men_explicit"
+  ],
+  "proof_points": [
+    "athlete_pro"
+  ],
+  "proof_verbatim": [],
+  "funnel_stage": "consideration",
+  "tone": "unclassified",
+  "has_offer": false,
+  "offer_verbatim": "",
+  "confidence": 0.35,
+  "engine": "mock",
+  "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
+}
