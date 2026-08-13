@@ -145,6 +145,31 @@ python3 -m teardown stats
 
 ---
 
+## Final capture state (WS1 closed 2026-08-12)
+
+79 ads, all 12 brands, **zero placeholder rows**. Provenance: 60 `api`, 19 `captured`.
+
+| Brand | Ads | How |
+|---|---|---|
+| lululemon | 16 | 10 hand-captured + 6 API |
+| Nike, Alo Yoga, Vuori, On, Under Armour, Arc'teryx, Patagonia, New Balance, Fabletics | 6 each | SerpApi |
+| Gymshark | 5 | hand-captured (API returns no text) |
+| Tracksmith | 4 | hand-captured (API returns no text) |
+
+**Tracksmith stays at 4 — this was a deliberate call, not an oversight.** Its remaining
+ads were truncated with "…" on screen, and logging partial copy would break the verbatim
+rule. Don't "fix" this by padding it.
+
+The consequence is handled, not ignored: with n=4 one ad is 25% of the brand, so the
+ownership index swings hard — Tracksmith reads **9.9x on convenience_service**, which is
+an artifact of sample size, not a real strategic position. `matrix.py` flags any brand
+under `LOW_SAMPLE` (5 ads) and the dashboard fades those bars and prints `n=` beside
+them. If you quote a Tracksmith multiple on a slide, quote the sample size with it.
+
+lululemon at 16 is the opposite imbalance. Use the dashboard's **"% of brand"** heatmap
+toggle when comparing brands — raw counts make lululemon look dominant everywhere purely
+because we captured more of it.
+
 ## Rules that matter
 
 **Copy verbatim. Never paraphrase.** The extraction quotes exact substrings back into

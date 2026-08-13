@@ -14,6 +14,10 @@ from typing import Dict, List, Optional
 from . import taxonomy
 from .schema import Ad, Cell, Extraction, Matrix, Whitespace
 
+# Below this many ads for a brand, share-based metrics are too jumpy to quote
+# without a caveat -- one ad moves the number by 20+ points.
+LOW_SAMPLE = 5
+
 
 def build(
     ads: List[Ad],
@@ -76,6 +80,11 @@ def build(
                         "territory": t,
                         "index": round(brand_share / cat_share, 2),
                         "count": counts[b].get(t, 0),
+                        # Carry the denominator. With 4 ads a single one is 25%
+                        # of the brand, so the index swings hard -- the
+                        # dashboard flags these rather than hiding them.
+                        "brand_total": brand_totals[b],
+                        "low_sample": brand_totals[b] < LOW_SAMPLE,
                     }
                 )
     ownership.sort(key=lambda r: -float(r["index"]))

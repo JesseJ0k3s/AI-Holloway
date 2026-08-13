@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-12T23:28:08+00:00",
+  "generated_at": "2026-08-13T23:38:50+00:00",
   "brands": [
     "Alo Yoga",
     "Arc'teryx",
@@ -6007,151 +6007,201 @@
         "brand": "Gymshark",
         "territory": "community_identity",
         "index": 15.8,
-        "count": 1
+        "count": 1,
+        "brand_total": 5,
+        "low_sample": false
       },
       {
         "brand": "New Balance",
         "territory": "technical_innovation",
         "index": 13.17,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Patagonia",
         "territory": "durability_quality",
         "index": 13.17,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Patagonia",
         "territory": "sustainability_ethics",
         "index": 13.17,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Tracksmith",
         "territory": "convenience_service",
         "index": 9.88,
-        "count": 1
+        "count": 1,
+        "brand_total": 4,
+        "low_sample": true
       },
       {
         "brand": "New Balance",
         "territory": "style_versatility",
         "index": 8.78,
-        "count": 2
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Gymshark",
         "territory": "convenience_service",
         "index": 7.9,
-        "count": 1
+        "count": 1,
+        "brand_total": 5,
+        "low_sample": false
       },
       {
         "brand": "Tracksmith",
         "territory": "performance",
         "index": 7.41,
-        "count": 3
+        "count": 3,
+        "brand_total": 4,
+        "low_sample": true
       },
       {
         "brand": "Patagonia",
         "territory": "newness_seasonal",
         "index": 6.58,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Under Armour",
         "territory": "newness_seasonal",
         "index": 6.58,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Nike",
         "territory": "price_value",
         "index": 6.08,
-        "count": 6
+        "count": 6,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Gymshark",
         "territory": "style_versatility",
         "index": 5.27,
-        "count": 1
+        "count": 1,
+        "brand_total": 5,
+        "low_sample": false
       },
       {
         "brand": "Vuori",
         "territory": "performance",
         "index": 3.29,
-        "count": 2
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Fabletics",
         "territory": "price_value",
         "index": 3.04,
-        "count": 3
+        "count": 3,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Under Armour",
         "territory": "price_value",
         "index": 2.03,
-        "count": 2
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "lululemon",
         "territory": "comfort_feel",
         "index": 1.97,
-        "count": 6
+        "count": 6,
+        "brand_total": 16,
+        "low_sample": false
       },
       {
         "brand": "Fabletics",
         "territory": "comfort_feel",
         "index": 1.76,
-        "count": 2
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "New Balance",
         "territory": "comfort_feel",
         "index": 1.76,
-        "count": 2
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Vuori",
         "territory": "comfort_feel",
         "index": 1.76,
-        "count": 2
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "On",
         "territory": "performance",
         "index": 1.65,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "lululemon",
         "territory": "performance",
         "index": 1.23,
-        "count": 2
+        "count": 2,
+        "brand_total": 16,
+        "low_sample": false
       },
       {
         "brand": "On",
         "territory": "price_value",
         "index": 1.01,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Vuori",
         "territory": "price_value",
         "index": 1.01,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Alo Yoga",
         "territory": "comfort_feel",
         "index": 0.88,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       },
       {
         "brand": "Arc'teryx",
         "territory": "comfort_feel",
         "index": 0.88,
-        "count": 1
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
       }
     ]
   }

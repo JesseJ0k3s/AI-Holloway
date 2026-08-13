@@ -460,16 +460,32 @@ function renderOwnership() {
 
   const max = Math.max.apply(null, rows.map(r => r.index));
   const bars = el("div", "bars");
+  let anyLow = false;
   rows.forEach(r => {
     const row = el("div", "bar-row");
-    row.appendChild(el("div", null, r.brand + " — " + titleize(r.territory)));
+    const label = el("div");
+    label.appendChild(el("div", null, r.brand + " — " + titleize(r.territory)));
+    // Always show the denominator. A 3x index off 4 ads is not the same
+    // finding as a 3x off 16, and the bar length alone hides that.
+    const n = el("div", null, "n=" + (r.brand_total || "?") + " ads" + (r.low_sample ? " · thin sample" : ""));
+    n.style.cssText = "font-size:11px;color:var(--muted)";
+    if (r.low_sample) { anyLow = true; n.style.color = "var(--serious)"; }
+    label.appendChild(n);
+    row.appendChild(label);
     const track = el("div", "bar-track"), fill = el("div", "bar-fill");
     fill.style.width = (100 * r.index / max) + "%";
+    if (r.low_sample) fill.style.opacity = "0.45";
     track.appendChild(fill); row.appendChild(track);
     row.appendChild(el("div", "bar-val", r.index.toFixed(1) + "x"));
     bars.appendChild(row);
   });
   host.appendChild(bars);
+  if (anyLow) {
+    const note = el("div", null,
+      "Faded bars are brands with fewer than 5 ads captured — one ad moves the index a lot. Quote these with the sample size attached.");
+    note.style.cssText = "margin-top:14px;font-size:12px;color:var(--ink-2)";
+    host.appendChild(note);
+  }
 }
 
 /* ---------- audience heatmap ---------- */
