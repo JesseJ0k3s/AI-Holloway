@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-13T23:38:50+00:00",
+  "generated_at": "2026-08-13T23:54:56+00:00",
   "brands": [
     "Alo Yoga",
     "Arc'teryx",
@@ -156,7 +156,7 @@
       "brand": "Arc'teryx",
       "territory": "comfort_feel",
       "count": 1,
-      "share_of_brand": 0.1667,
+      "share_of_brand": 0.3333,
       "example_ad_ids": [
         "CR06842778575007907841"
       ],
@@ -256,7 +256,7 @@
       "brand": "Fabletics",
       "territory": "comfort_feel",
       "count": 2,
-      "share_of_brand": 0.3333,
+      "share_of_brand": 0.4,
       "example_ad_ids": [
         "CR11113430953043689473",
         "CR00839002972007432193"
@@ -325,17 +325,15 @@
     {
       "brand": "Fabletics",
       "territory": "price_value",
-      "count": 3,
-      "share_of_brand": 0.5,
+      "count": 2,
+      "share_of_brand": 0.4,
       "example_ad_ids": [
         "CR00623664513060700161",
-        "CR01635544789225046017",
-        "CR12260659916586352641"
+        "CR01635544789225046017"
       ],
       "example_claims": [
         "Fabletics",
-        "Fabletics",
-        "Savage X Fenty"
+        "Fabletics"
       ]
     },
     {
@@ -649,17 +647,13 @@
     {
       "brand": "Nike",
       "territory": "price_value",
-      "count": 6,
+      "count": 1,
       "share_of_brand": 1.0,
       "example_ad_ids": [
-        "CR13243293415380090881",
-        "CR03732794912047890433",
-        "CR10532633314563457025"
+        "CR13243293415380090881"
       ],
       "example_claims": [
-        "Nike Factory Store - Downtown Philadelphia",
-        "Nike Mountain View Village",
-        "Nike Clearance Store - Las Vegas South"
+        "Nike Factory Store - Downtown Philadelphia"
       ]
     },
     {
@@ -682,7 +676,7 @@
       "brand": "On",
       "territory": "performance",
       "count": 1,
-      "share_of_brand": 0.1667,
+      "share_of_brand": 0.3333,
       "example_ad_ids": [
         "CR13893760577362198529"
       ],
@@ -694,7 +688,7 @@
       "brand": "On",
       "territory": "comfort_feel",
       "count": 1,
-      "share_of_brand": 0.1667,
+      "share_of_brand": 0.3333,
       "example_ad_ids": [
         "CR05585223996258910209"
       ],
@@ -762,7 +756,7 @@
       "brand": "On",
       "territory": "price_value",
       "count": 1,
-      "share_of_brand": 0.1667,
+      "share_of_brand": 0.3333,
       "example_ad_ids": [
         "CR08324709512384610305"
       ],
@@ -1625,9 +1619,8 @@
     {
       "audience": "outdoor_alpine",
       "territory": "price_value",
-      "count": 2,
+      "count": 1,
       "brands": [
-        "Nike",
         "On"
       ]
     },
@@ -2154,7 +2147,7 @@
     {
       "audience": "value_seekers",
       "territory": "price_value",
-      "count": 3,
+      "count": 2,
       "brands": [
         "Fabletics",
         "Under Armour"
@@ -2248,21 +2241,21 @@
   "proof_frequency": [
     {
       "proof": "none",
-      "count": 72,
-      "share_of_ads": 0.9114,
+      "count": 60,
+      "share_of_ads": 0.8955,
       "brands": {
         "lululemon": 15,
         "Gymshark": 4,
         "Tracksmith": 2,
-        "Nike": 6,
+        "Nike": 1,
         "Alo Yoga": 6,
         "Vuori": 5,
-        "On": 5,
+        "On": 2,
         "Under Armour": 6,
-        "Arc'teryx": 6,
+        "Arc'teryx": 3,
         "Patagonia": 6,
         "New Balance": 6,
-        "Fabletics": 5
+        "Fabletics": 4
       },
       "brand_count": 12,
       "label": "Asserts a claim with no evidence offered."
@@ -2270,7 +2263,7 @@
     {
       "proof": "free_returns_shipping",
       "count": 5,
-      "share_of_ads": 0.0633,
+      "share_of_ads": 0.0746,
       "brands": {
         "lululemon": 1,
         "Gymshark": 1,
@@ -2283,7 +2276,7 @@
     {
       "proof": "scarcity_urgency",
       "count": 1,
-      "share_of_ads": 0.0127,
+      "share_of_ads": 0.0149,
       "brands": {
         "On": 1
       },
@@ -2293,7 +2286,7 @@
     {
       "proof": "athlete_pro",
       "count": 1,
-      "share_of_ads": 0.0127,
+      "share_of_ads": 0.0149,
       "brands": {
         "Fabletics": 1
       },
@@ -2366,7 +2359,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 93.8,
+      "opportunity_score": 93.5,
       "reasoning": "New Balance is alone here -- contestable, or a signal it does not work."
     },
     {
@@ -2389,7 +2382,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 93.8,
+      "opportunity_score": 93.5,
       "reasoning": "Patagonia is alone here -- contestable, or a signal it does not work."
     },
     {
@@ -2412,7 +2405,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 93.8,
+      "opportunity_score": 93.5,
       "reasoning": "Patagonia is alone here -- contestable, or a signal it does not work."
     },
     {
@@ -2435,7 +2428,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 93.8,
+      "opportunity_score": 93.5,
       "reasoning": "Gymshark is alone here -- contestable, or a signal it does not work."
     },
     {
@@ -2458,7 +2451,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 87.5,
+      "opportunity_score": 86.9,
       "reasoning": "Only 2 of 12 brands play here."
     },
     {
@@ -2481,7 +2474,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 87.5,
+      "opportunity_score": 86.9,
       "reasoning": "Only 2 of 12 brands play here."
     },
     {
@@ -2504,7 +2497,7 @@
         "Vuori",
         "lululemon"
       ],
-      "opportunity_score": 86.2,
+      "opportunity_score": 85.4,
       "reasoning": "Only 2 of 12 brands play here."
     },
     {
@@ -2527,13 +2520,13 @@
         "Patagonia",
         "Under Armour"
       ],
-      "opportunity_score": 70.0,
+      "opportunity_score": 67.7,
       "reasoning": "Only 4 of 12 brands play here."
     },
     {
       "territory": "price_value",
       "audience": null,
-      "total_ads": 13,
+      "total_ads": 7,
       "brands_present": [
         "Fabletics",
         "Nike",
@@ -2550,7 +2543,7 @@
         "Tracksmith",
         "lululemon"
       ],
-      "opportunity_score": 58.7,
+      "opportunity_score": 64.2,
       "reasoning": "Crowded: 5 of 12 brands are already claiming this."
     },
     {
@@ -2573,7 +2566,7 @@
         "Tracksmith",
         "Under Armour"
       ],
-      "opportunity_score": 46.2,
+      "opportunity_score": 41.9,
       "reasoning": "Crowded: 7 of 12 brands are already claiming this."
     }
   ],
@@ -3149,117 +3142,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR13243293415380090881?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Nike",
-      "platform": "google_search",
-      "headline": "Nike Mountain View Village",
-      "body": "Use promo code DAYONE to get an extra 25% off on select styles.",
-      "ad_id": "CR03732794912047890433",
-      "advertiser_id": "AR16735076323512287233",
-      "cta": null,
-      "landing_url": "nike.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/10606944951155813484",
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR03732794912047890433?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Nike",
-      "platform": "google_search",
-      "headline": "Nike Clearance Store - Las Vegas South",
-      "body": "Use promo code DAYONE to get an extra 25% off on select styles.",
-      "ad_id": "CR10532633314563457025",
-      "advertiser_id": "AR16735076323512287233",
-      "cta": null,
-      "landing_url": "nike.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/1167411770909627885",
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR10532633314563457025?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Nike",
-      "platform": "google_search",
-      "headline": "Nike Nashville",
-      "body": "Use promo code DAYONE to get an extra 25% off on select styles.",
-      "ad_id": "CR05787452290872901633",
-      "advertiser_id": "AR16735076323512287233",
-      "cta": null,
-      "landing_url": "nike.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/16153825295919687660",
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR05787452290872901633?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Nike",
-      "platform": "google_search",
-      "headline": "Nike Clearance Store - Tempe",
-      "body": "Use promo code DAYONE to get an extra 25% off on select styles.",
-      "ad_id": "CR02450143679747194881",
-      "advertiser_id": "AR16735076323512287233",
-      "cta": null,
-      "landing_url": "nike.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/5625881557469914222",
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR02450143679747194881?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Nike",
-      "platform": "google_search",
-      "headline": "Nike Brickell",
-      "body": "Use promo code DAYONE to get an extra 25% off on select styles.",
-      "ad_id": "CR07072557083370979329",
-      "advertiser_id": "AR16735076323512287233",
-      "cta": null,
-      "landing_url": "nike.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/2078381840329135310",
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR07072557083370979329?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Alo Yoga",
@@ -3529,28 +3412,6 @@
       "brand": "On",
       "platform": "google_search",
       "headline": "On Store Austin South Congress",
-      "body": "On Cloudnova 2: nuestras deportivas originales, ahora más cómodas gracias a la tecnología.",
-      "ad_id": "CR03722676862451712001",
-      "advertiser_id": "AR01566006373894848513",
-      "cta": null,
-      "landing_url": "on.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/15916696479496793132",
-      "first_seen": "2026-04-01",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR03722676862451712001?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "On",
-      "platform": "google_search",
-      "headline": "On Store Austin South Congress",
       "body": "Find your perfect On. Millions of runners already have theirs. Let us help you find yours.",
       "ad_id": "CR13893760577362198529",
       "advertiser_id": "AR01566006373894848513",
@@ -3567,29 +3428,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR13893760577362198529?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "On",
-      "platform": "google_search",
-      "headline": "On Store LA Abbot Kinney",
-      "body": "Con CloudTec® en espuma Zero-Gravity para aterrizajes suaves y amortiguados.",
-      "ad_id": "CR05779723205165973505",
-      "advertiser_id": "AR01566006373894848513",
-      "cta": null,
-      "landing_url": "on.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/5211592212128373792",
-      "first_seen": "2026-04-01",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR05779723205165973505?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "On",
@@ -3611,7 +3450,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR05585223996258910209?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "On",
@@ -3636,28 +3475,6 @@
       "notes": "serpapi:ad_details"
     },
     {
-      "brand": "On",
-      "platform": "google_search",
-      "headline": "On Store The Village at Corte Madera",
-      "body": "Un diseño que fluye con cualquier movimiento para entrenar con toda comodidad.",
-      "ad_id": "CR09039004698748649473",
-      "advertiser_id": "AR01566006373894848513",
-      "cta": null,
-      "landing_url": "on.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/12016644686789579399",
-      "first_seen": "2026-04-01",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR01566006373894848513/creative/CR09039004698748649473?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
       "brand": "Under Armour",
       "platform": "google_search",
       "headline": "Under Armour Factory House - Tanger Outlets Hershey",
@@ -3677,7 +3494,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR07448732214897934337?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Under Armour",
@@ -3699,7 +3516,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR02537979033715474433?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Under Armour",
@@ -3743,7 +3560,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR04214021782539075585?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Under Armour",
@@ -3787,7 +3604,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR16916677161513910273/creative/CR04120695235573448705?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Arc'teryx",
@@ -3809,7 +3626,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR07313732622461435905?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Arc'teryx",
@@ -3836,72 +3653,6 @@
     {
       "brand": "Arc'teryx",
       "platform": "google_search",
-      "headline": "Arc’teryx Stockholm",
-      "body": "Calzado que aporta una pisada estable y reactiva, sea cual sea el terreno",
-      "ad_id": "CR17292257422890500097",
-      "advertiser_id": "AR17137590075693989889",
-      "cta": null,
-      "landing_url": "arcteryx.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/4043626499492040519",
-      "first_seen": "2026-01-09",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR17292257422890500097?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Arc'teryx",
-      "platform": "google_search",
-      "headline": "Arc'teryx Oslo",
-      "body": "Entdecke leichte, technische Ausrüstung, mit der du über deine Ziele hinauswächst.",
-      "ad_id": "CR11790537082743554049",
-      "advertiser_id": "AR17137590075693989889",
-      "cta": null,
-      "landing_url": "arcteryx.com",
-      "creative_type": "text",
-      "media_url": null,
-      "first_seen": "2026-01-09",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR11790537082743554049?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Arc'teryx",
-      "platform": "google_search",
-      "headline": "Arc'teryx Covent Garden",
-      "body": "Réactivité, adhérence fiable et stabilité irréprochable pour courir sur terrain accidenté",
-      "ad_id": "CR16347731304898363393",
-      "advertiser_id": "AR17137590075693989889",
-      "cta": null,
-      "landing_url": "arcteryx.com",
-      "creative_type": "text",
-      "media_url": null,
-      "first_seen": "2026-01-09",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR16347731304898363393?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Arc'teryx",
-      "platform": "google_search",
       "headline": "Arc'teryx Piccadilly London Store",
       "body": "Optimized for temperature control, breathability, and warmth in transitioning weather.",
       "ad_id": "CR06842778575007907841",
@@ -3919,7 +3670,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR17137590075693989889/creative/CR06842778575007907841?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Patagonia",
@@ -4095,7 +3846,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR07327211320757977089?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "New Balance",
@@ -4117,7 +3868,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR13412464343149182977?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "New Balance",
@@ -4161,7 +3912,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR02491792123645394945?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "New Balance",
@@ -4183,7 +3934,7 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR04323445746671026177/creative/CR00674307803887697921?region=US",
-      "notes": "serpapi:ad_details"
+      "notes": "serpapi:ad_details | store_headline"
     },
     {
       "brand": "Fabletics",
@@ -4271,28 +4022,6 @@
       "provenance": "api",
       "captured_at": "2026-08-12T23:19:18.854723+00:00",
       "source_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR01635544789225046017?region=US",
-      "notes": "serpapi:ad_details"
-    },
-    {
-      "brand": "Fabletics",
-      "platform": "google_search",
-      "headline": "Savage X Fenty",
-      "body": "Our Back To Campus Sale is here! Get 70% off sitewide as a New Rewards Member Today",
-      "ad_id": "CR12260659916586352641",
-      "advertiser_id": "AR03556834903704207361",
-      "cta": null,
-      "landing_url": "savagex.com",
-      "creative_type": "text",
-      "media_url": "https://tpc.googlesyndication.com/archive/simgad/17876739653466293808",
-      "first_seen": "2025-09-30",
-      "last_seen": "2026-08-12",
-      "still_running": true,
-      "regions": [
-        "US"
-      ],
-      "provenance": "api",
-      "captured_at": "2026-08-12T23:19:18.854723+00:00",
-      "source_url": "https://adstransparency.google.com/advertiser/AR03556834903704207361/creative/CR12260659916586352641?region=US",
       "notes": "serpapi:ad_details"
     },
     {
@@ -4869,113 +4598,6 @@
       "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
     },
     {
-      "ad_id": "CR03732794912047890433",
-      "brand": "Nike",
-      "primary_claim_territory": "price_value",
-      "secondary_claim_territories": [
-        "style_versatility"
-      ],
-      "claim_verbatim": "Nike Mountain View Village",
-      "audiences": [
-        "outdoor_alpine"
-      ],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "conversion",
-      "tone": "urgent_promotional",
-      "has_offer": true,
-      "offer_verbatim": "",
-      "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR10532633314563457025",
-      "brand": "Nike",
-      "primary_claim_territory": "price_value",
-      "secondary_claim_territories": [
-        "style_versatility"
-      ],
-      "claim_verbatim": "Nike Clearance Store - Las Vegas South",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "conversion",
-      "tone": "urgent_promotional",
-      "has_offer": true,
-      "offer_verbatim": "",
-      "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR05787452290872901633",
-      "brand": "Nike",
-      "primary_claim_territory": "price_value",
-      "secondary_claim_territories": [
-        "style_versatility"
-      ],
-      "claim_verbatim": "Nike Nashville",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "conversion",
-      "tone": "urgent_promotional",
-      "has_offer": true,
-      "offer_verbatim": "",
-      "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR02450143679747194881",
-      "brand": "Nike",
-      "primary_claim_territory": "price_value",
-      "secondary_claim_territories": [
-        "style_versatility"
-      ],
-      "claim_verbatim": "Nike Clearance Store - Tempe",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "conversion",
-      "tone": "urgent_promotional",
-      "has_offer": true,
-      "offer_verbatim": "",
-      "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR07072557083370979329",
-      "brand": "Nike",
-      "primary_claim_territory": "price_value",
-      "secondary_claim_territories": [
-        "style_versatility"
-      ],
-      "claim_verbatim": "Nike Brickell",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "conversion",
-      "tone": "urgent_promotional",
-      "has_offer": true,
-      "offer_verbatim": "",
-      "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
       "ad_id": "CR00607181940407140353",
       "brand": "Alo Yoga",
       "primary_claim_territory": "unclassified",
@@ -5228,25 +4850,6 @@
       "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
     },
     {
-      "ad_id": "CR03722676862451712001",
-      "brand": "On",
-      "primary_claim_territory": "unclassified",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "On Store Austin South Congress",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "consideration",
-      "tone": "unclassified",
-      "has_offer": false,
-      "offer_verbatim": "",
-      "confidence": 0.1,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
       "ad_id": "CR13893760577362198529",
       "brand": "On",
       "primary_claim_territory": "performance",
@@ -5264,25 +4867,6 @@
       "has_offer": false,
       "offer_verbatim": "",
       "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR05779723205165973505",
-      "brand": "On",
-      "primary_claim_territory": "unclassified",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "On Store LA Abbot Kinney",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "consideration",
-      "tone": "unclassified",
-      "has_offer": false,
-      "offer_verbatim": "",
-      "confidence": 0.1,
       "engine": "mock",
       "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
     },
@@ -5328,25 +4912,6 @@
       "has_offer": true,
       "offer_verbatim": "",
       "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR09039004698748649473",
-      "brand": "On",
-      "primary_claim_territory": "unclassified",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "On Store The Village at Corte Madera",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "consideration",
-      "tone": "unclassified",
-      "has_offer": false,
-      "offer_verbatim": "",
-      "confidence": 0.1,
       "engine": "mock",
       "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
     },
@@ -5508,63 +5073,6 @@
       "audiences": [
         "outdoor_alpine"
       ],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "consideration",
-      "tone": "unclassified",
-      "has_offer": false,
-      "offer_verbatim": "",
-      "confidence": 0.1,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR17292257422890500097",
-      "brand": "Arc'teryx",
-      "primary_claim_territory": "unclassified",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "Arc’teryx Stockholm",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "consideration",
-      "tone": "unclassified",
-      "has_offer": false,
-      "offer_verbatim": "",
-      "confidence": 0.1,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR11790537082743554049",
-      "brand": "Arc'teryx",
-      "primary_claim_territory": "unclassified",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "Arc'teryx Oslo",
-      "audiences": [],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "consideration",
-      "tone": "unclassified",
-      "has_offer": false,
-      "offer_verbatim": "",
-      "confidence": 0.1,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
-      "ad_id": "CR16347731304898363393",
-      "brand": "Arc'teryx",
-      "primary_claim_territory": "unclassified",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "Arc'teryx Covent Garden",
-      "audiences": [],
       "proof_points": [
         "none"
       ],
@@ -5935,27 +5443,6 @@
       "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
     },
     {
-      "ad_id": "CR12260659916586352641",
-      "brand": "Fabletics",
-      "primary_claim_territory": "price_value",
-      "secondary_claim_territories": [],
-      "claim_verbatim": "Savage X Fenty",
-      "audiences": [
-        "value_seekers"
-      ],
-      "proof_points": [
-        "none"
-      ],
-      "proof_verbatim": [],
-      "funnel_stage": "conversion",
-      "tone": "urgent_promotional",
-      "has_offer": true,
-      "offer_verbatim": "",
-      "confidence": 0.35,
-      "engine": "mock",
-      "rationale": "Keyword-rule fallback. Re-run with ANTHROPIC_API_KEY for a real read."
-    },
-    {
       "ad_id": "CR00839002972007432193",
       "brand": "Fabletics",
       "primary_claim_territory": "comfort_feel",
@@ -5976,37 +5463,37 @@
     }
   ],
   "stats": {
-    "n_ads": 79,
+    "n_ads": 67,
     "n_brands": 12,
-    "n_extractions": 79,
+    "n_extractions": 67,
     "provenance": {
       "captured": 19,
-      "api": 60
+      "api": 48
     },
     "engine": {
-      "mock": 79
+      "mock": 67
     },
-    "mean_confidence": 0.249,
+    "mean_confidence": 0.253,
     "ads_per_brand": {
       "Alo Yoga": 6,
-      "Arc'teryx": 6,
-      "Fabletics": 6,
+      "Arc'teryx": 3,
+      "Fabletics": 5,
       "Gymshark": 5,
       "New Balance": 6,
-      "Nike": 6,
-      "On": 6,
+      "Nike": 1,
+      "On": 3,
       "Patagonia": 6,
       "Tracksmith": 4,
       "Under Armour": 6,
       "Vuori": 6,
       "lululemon": 16
     },
-    "unclassified": 32,
+    "unclassified": 26,
     "ownership_index": [
       {
         "brand": "Gymshark",
         "territory": "community_identity",
-        "index": 15.8,
+        "index": 13.4,
         "count": 1,
         "brand_total": 5,
         "low_sample": false
@@ -6014,7 +5501,7 @@
       {
         "brand": "New Balance",
         "territory": "technical_innovation",
-        "index": 13.17,
+        "index": 11.17,
         "count": 1,
         "brand_total": 6,
         "low_sample": false
@@ -6022,7 +5509,7 @@
       {
         "brand": "Patagonia",
         "territory": "durability_quality",
-        "index": 13.17,
+        "index": 11.17,
         "count": 1,
         "brand_total": 6,
         "low_sample": false
@@ -6030,55 +5517,7 @@
       {
         "brand": "Patagonia",
         "territory": "sustainability_ethics",
-        "index": 13.17,
-        "count": 1,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "Tracksmith",
-        "territory": "convenience_service",
-        "index": 9.88,
-        "count": 1,
-        "brand_total": 4,
-        "low_sample": true
-      },
-      {
-        "brand": "New Balance",
-        "territory": "style_versatility",
-        "index": 8.78,
-        "count": 2,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "Gymshark",
-        "territory": "convenience_service",
-        "index": 7.9,
-        "count": 1,
-        "brand_total": 5,
-        "low_sample": false
-      },
-      {
-        "brand": "Tracksmith",
-        "territory": "performance",
-        "index": 7.41,
-        "count": 3,
-        "brand_total": 4,
-        "low_sample": true
-      },
-      {
-        "brand": "Patagonia",
-        "territory": "newness_seasonal",
-        "index": 6.58,
-        "count": 1,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "Under Armour",
-        "territory": "newness_seasonal",
-        "index": 6.58,
+        "index": 11.17,
         "count": 1,
         "brand_total": 6,
         "low_sample": false
@@ -6086,111 +5525,127 @@
       {
         "brand": "Nike",
         "territory": "price_value",
-        "index": 6.08,
-        "count": 6,
+        "index": 9.57,
+        "count": 1,
+        "brand_total": 1,
+        "low_sample": true
+      },
+      {
+        "brand": "Tracksmith",
+        "territory": "convenience_service",
+        "index": 8.38,
+        "count": 1,
+        "brand_total": 4,
+        "low_sample": true
+      },
+      {
+        "brand": "New Balance",
+        "territory": "style_versatility",
+        "index": 7.44,
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
+      },
+      {
+        "brand": "Gymshark",
+        "territory": "convenience_service",
+        "index": 6.7,
+        "count": 1,
+        "brand_total": 5,
+        "low_sample": false
+      },
+      {
+        "brand": "Tracksmith",
+        "territory": "performance",
+        "index": 6.28,
+        "count": 3,
+        "brand_total": 4,
+        "low_sample": true
+      },
+      {
+        "brand": "Patagonia",
+        "territory": "newness_seasonal",
+        "index": 5.58,
+        "count": 1,
+        "brand_total": 6,
+        "low_sample": false
+      },
+      {
+        "brand": "Under Armour",
+        "territory": "newness_seasonal",
+        "index": 5.58,
+        "count": 1,
         "brand_total": 6,
         "low_sample": false
       },
       {
         "brand": "Gymshark",
         "territory": "style_versatility",
-        "index": 5.27,
+        "index": 4.47,
         "count": 1,
         "brand_total": 5,
         "low_sample": false
       },
       {
+        "brand": "Fabletics",
+        "territory": "price_value",
+        "index": 3.83,
+        "count": 2,
+        "brand_total": 5,
+        "low_sample": false
+      },
+      {
+        "brand": "On",
+        "territory": "price_value",
+        "index": 3.19,
+        "count": 1,
+        "brand_total": 3,
+        "low_sample": true
+      },
+      {
+        "brand": "Under Armour",
+        "territory": "price_value",
+        "index": 3.19,
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
+      },
+      {
+        "brand": "On",
+        "territory": "performance",
+        "index": 2.79,
+        "count": 1,
+        "brand_total": 3,
+        "low_sample": true
+      },
+      {
         "brand": "Vuori",
         "territory": "performance",
-        "index": 3.29,
+        "index": 2.79,
         "count": 2,
         "brand_total": 6,
         "low_sample": false
       },
       {
         "brand": "Fabletics",
-        "territory": "price_value",
-        "index": 3.04,
-        "count": 3,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "Under Armour",
-        "territory": "price_value",
-        "index": 2.03,
+        "territory": "comfort_feel",
+        "index": 1.79,
         "count": 2,
-        "brand_total": 6,
+        "brand_total": 5,
         "low_sample": false
       },
       {
         "brand": "lululemon",
         "territory": "comfort_feel",
-        "index": 1.97,
+        "index": 1.68,
         "count": 6,
         "brand_total": 16,
         "low_sample": false
       },
       {
-        "brand": "Fabletics",
-        "territory": "comfort_feel",
-        "index": 1.76,
-        "count": 2,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "New Balance",
-        "territory": "comfort_feel",
-        "index": 1.76,
-        "count": 2,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "Vuori",
-        "territory": "comfort_feel",
-        "index": 1.76,
-        "count": 2,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "On",
-        "territory": "performance",
-        "index": 1.65,
-        "count": 1,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "lululemon",
-        "territory": "performance",
-        "index": 1.23,
-        "count": 2,
-        "brand_total": 16,
-        "low_sample": false
-      },
-      {
-        "brand": "On",
-        "territory": "price_value",
-        "index": 1.01,
-        "count": 1,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
         "brand": "Vuori",
         "territory": "price_value",
-        "index": 1.01,
-        "count": 1,
-        "brand_total": 6,
-        "low_sample": false
-      },
-      {
-        "brand": "Alo Yoga",
-        "territory": "comfort_feel",
-        "index": 0.88,
+        "index": 1.6,
         "count": 1,
         "brand_total": 6,
         "low_sample": false
@@ -6198,9 +5653,41 @@
       {
         "brand": "Arc'teryx",
         "territory": "comfort_feel",
-        "index": 0.88,
+        "index": 1.49,
         "count": 1,
+        "brand_total": 3,
+        "low_sample": true
+      },
+      {
+        "brand": "New Balance",
+        "territory": "comfort_feel",
+        "index": 1.49,
+        "count": 2,
         "brand_total": 6,
+        "low_sample": false
+      },
+      {
+        "brand": "On",
+        "territory": "comfort_feel",
+        "index": 1.49,
+        "count": 1,
+        "brand_total": 3,
+        "low_sample": true
+      },
+      {
+        "brand": "Vuori",
+        "territory": "comfort_feel",
+        "index": 1.49,
+        "count": 2,
+        "brand_total": 6,
+        "low_sample": false
+      },
+      {
+        "brand": "lululemon",
+        "territory": "performance",
+        "index": 1.05,
+        "count": 2,
+        "brand_total": 16,
         "low_sample": false
       }
     ]

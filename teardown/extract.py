@@ -31,7 +31,10 @@ def _catalog(d: Dict[str, str]) -> str:
     return "\n".join("  %s: %s" % (k, v) for k, v in d.items())
 
 
-SYSTEM = """You are a competitive intelligence analyst who reads advertising copy for a living.
+# NOTE: this template is filled with str.replace, NOT %-formatting. Ad copy is
+# full of percent signs ("25% off", "100% Recycled") and %-formatting turns every
+# one of them into a crash at import time. Edit the text freely; no escaping.
+_SYSTEM_TEMPLATE = """You are a competitive intelligence analyst who reads advertising copy for a living.
 
 You will be given search ads that fitness apparel brands are currently running. \
 For each ad, identify what the brand is CLAIMING, WHO it is talking to, and what \
@@ -40,16 +43,16 @@ what you know about the brand from elsewhere. A lululemon ad that only says \
 "Free Shipping On Orders $75+" is a price_value ad, not a performance ad.
 
 Claim territories (choose exactly one primary):
-%s
+{TERRITORIES}
 
 Audiences (choose 0-3; only if the copy actually signals them):
-%s
+{AUDIENCES}
 
 Proof types (choose 0-3; "none" if the ad asserts without evidence):
-%s
+{PROOFS}
 
 Tones (choose exactly one):
-%s
+{TONES}
 
 Rules:
 - claim_verbatim and proof_verbatim must be EXACT substrings of the ad copy. Never paraphrase.
@@ -57,15 +60,46 @@ Rules:
 - confidence is 0.0-1.0. Short or generic ads should score low.
 - rationale is one short sentence a marketer could read on a slide.
 
+What the real data actually looks like (read these before you start):
+
+- MANY HEADLINES ARE NOT CLAIMS. Google local ads put the store name in the
+  headline ("Nike Brickell", "Under Armour Factory House", "On Store LA Abbot
+  Kinney"), and some rows carry only the advertiser name ("lululemon", "ALO").
+  A store or brand name is NOT a claim. When the headline is a location or a
+  bare brand name, judge the ad entirely on its body copy, and never quote the
+  store name as claim_verbatim.
+
+- PROMO-ONLY ADS ARE price_value, nothing else. "Use promo code DAYONE to get
+  an extra 25% off on select styles" is price_value with has_offer=true. Do not
+  award it performance or style just because it came from an athletic brand.
+  Judge the words, not the logo.
+
+- FREE SHIPPING / FREE RETURNS IS A PROOF POINT, NOT A CLAIM TERRITORY, unless
+  it is the whole ad. "Free Shipping On Orders Over $150" inside a running ad is
+  free_returns_shipping proof supporting a performance claim.
+
+- SOME ADS ARE NOT IN ENGLISH. They were served in the US but written in
+  Spanish, German or French. Classify them normally from their actual meaning;
+  set confidence <= 0.4 and say so in the rationale.
+
+- BE WILLING TO USE fit_inclusivity AND sustainability_ethics. Explicit sizing
+  language ("Plus Size", "tall activewear", "XXS to 4X") is fit_inclusivity.
+  Recycled/repair/trade-in language ("Trade In Your Gear For Credit", "100%
+  Recycled Outer Fabrics") is sustainability_ethics or durability_quality. These
+  territories are under-detected; do not default everything to comfort_feel.
+
 Return ONLY a JSON array, one object per ad, in the same order given:
 [{"ad_id":"...","primary_claim_territory":"...","secondary_claim_territories":[],
   "claim_verbatim":"...","audiences":[],"proof_points":[],"proof_verbatim":[],
   "funnel_stage":"awareness|consideration|conversion","tone":"...",
-  "has_offer":false,"offer_verbatim":"","confidence":0.0,"rationale":"..."}]""" % (
-    _catalog(taxonomy.CLAIM_TERRITORIES),
-    _catalog(taxonomy.AUDIENCES),
-    _catalog(taxonomy.PROOF_TYPES),
-    _catalog(taxonomy.TONES),
+  "has_offer":false,"offer_verbatim":"","confidence":0.0,"rationale":"..."}]"""
+
+SYSTEM = (
+    _SYSTEM_TEMPLATE
+    .replace("{TERRITORIES}", _catalog(taxonomy.CLAIM_TERRITORIES))
+    .replace("{AUDIENCES}", _catalog(taxonomy.AUDIENCES))
+    .replace("{PROOFS}", _catalog(taxonomy.PROOF_TYPES))
+    .replace("{TONES}", _catalog(taxonomy.TONES))
 )
 
 

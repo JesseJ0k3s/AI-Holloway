@@ -58,7 +58,17 @@ def cmd_analyze(args: argparse.Namespace) -> Matrix:
             "  Run:  python3 -m teardown ingest --source manual --save\n"
             "  (or --source serpapi, or use the seed file to test the pipeline)"
         )
-    print("  %d ads loaded" % len(ads))
+    from . import quality
+    quality.flag(ads)
+    if not args.all_ads:
+        clean = quality.usable(ads)
+        if len(clean) != len(ads):
+            print("  %d ads loaded, %d usable (%d dropped: non-English, "
+                  "sibling brand, or duplicate copy)" % (len(ads), len(clean), len(ads) - len(clean)))
+            print("  run `python3 -m teardown quality` for the breakdown, or --all-ads to keep them")
+        ads = clean
+    else:
+        print("  %d ads loaded (--all-ads: quality filter off)" % len(ads))
 
     extractions = extract.extract_all(ads, engine=args.engine, use_cache=not args.no_cache)
 
@@ -139,6 +149,79 @@ def cmd_taxonomy(args: argparse.Namespace) -> None:
         print("  %-16s %s" % (b, meta["archetype"]))
 
 
+def cmd_quality(args: argparse.Namespace) -> None:
+    from . import quality
+
+    ads = fixtures.fetch()
+    if not ads:
+        print("No ads captured yet.")
+        return
+    r = quality.audit(ads)
+
+    _banner("Data quality audit -- %d ads" % r["n_ads"])
+
+    print("\n\033[1mNon-English copy (%d)\033[0m" % len(r["non_english"]))
+    print("  Region filters where an ad SERVED, not what language it's in.")
+    for ad, lang in r["non_english"]:
+        print("  [%s] %-13s %s" % (lang, ad.brand, ad.full_text.replace("\n", " ")[:70]))
+
+    print("\n\033[1mStore-location headlines (%d)\033[0m" % len(r["store_ads"]))
+    print("  Headline is a retail location, not a claim. Body copy is still usable.")
+    for ad in r["store_ads"][:10]:
+        print("  %-13s %s" % (ad.brand, ad.headline[:60]))
+    if len(r["store_ads"]) > 10:
+        print("  ... and %d more" % (len(r["store_ads"]) - 10))
+
+    print("\n\033[1mBrand-name-only headlines (%d)\033[0m" % len(r["brand_only"]))
+    print("  SerpApi's `title` is the advertiser name, so body copy carries the claim.")
+
+    print("\n\033[1mCross-brand bleed (%d)\033[0m" % len(r["cross_brand"]))
+    print("  One advertiser account running a sibling brand's ads.")
+    for ad, hits in r["cross_brand"]:
+        print("  %-13s mentions %s: %s" % (ad.brand, hits, ad.full_text[:50]))
+
+    print("\n\033[1mRepeated copy across locations (%d groups)\033[0m" % len(r["duplicate_groups"]))
+    for key, group in list(r["duplicate_groups"].items())[:5]:
+        print("  %dx %-13s %s" % (len(group), group[0].brand, key[:60]))
+
+    print("\n\033[1mDistinct messages vs. ads captured\033[0m")
+    print("  A brand with 6 ads but 1 distinct message has 1 data point.")
+    for b in sorted(r["total_by_brand"], key=lambda x: r["distinct_by_brand"][x]):
+        tot, dis = r["total_by_brand"][b], r["distinct_by_brand"][b]
+        warn = "   <- collapses" if dis < tot else ""
+        print("  %-14s %2d ads -> %2d distinct%s" % (b, tot, dis, warn))
+
+    from . import quality as q
+
+    print("\n\033[1mUsable for analysis: %d of %d\033[0m" % (len(q.usable(ads)), len(ads)))
+
+
+def cmd_gold(args: argparse.Namespace) -> None:
+    from . import evaluate, quality
+
+    ads = quality.usable(fixtures.fetch())
+    if not ads:
+        raise SystemExit("No ads captured yet.")
+
+    if args.init:
+        path = evaluate.init_gold(ads, n=args.n)
+        print("\nWrote a blank answer key: %s" % os.path.relpath(path, ROOT))
+        print("  %d ads sampled across brands." % args.n)
+        print("\nNow fill in the true_territory column BY HAND, before looking")
+        print("at any model output. Valid values:")
+        for k in taxonomy.CLAIM_TERRITORIES:
+            print("  %s" % k)
+        print("\nThen score it with:  python3 -m teardown gold")
+        return
+
+    gold = evaluate.load_gold()
+    extractions = [
+        extract.Extraction.from_dict(json.load(open(p, encoding="utf-8")))
+        for p in __import__("glob").glob(os.path.join(ROOT, "data", "extracted", "*.json"))
+    ]
+    evaluate.report(evaluate.score(gold, extractions))
+
+
 def cmd_stats(args: argparse.Namespace) -> None:
     ads = fixtures.fetch()
     if not ads:
@@ -179,6 +262,8 @@ def main(argv: Optional[List[str]] = None) -> None:
         sp.add_argument("--save", action="store_true", help="persist ingested ads to data/ads/")
         sp.add_argument("--generate-for", default="", help="brand to write whitespace concepts for")
         sp.add_argument("--open", action="store_true", help="open the dashboard when done")
+        sp.add_argument("--all-ads", action="store_true",
+                        help="skip the data-quality filter (keeps non-English/duplicate ads)")
 
     for name, fn in (
         ("ingest", cmd_ingest),
@@ -192,6 +277,11 @@ def main(argv: Optional[List[str]] = None) -> None:
 
     sub.add_parser("taxonomy").set_defaults(func=cmd_taxonomy)
     sub.add_parser("stats").set_defaults(func=cmd_stats)
+    sub.add_parser("quality").set_defaults(func=cmd_quality)
+    gp = sub.add_parser("gold")
+    gp.add_argument("--init", action="store_true", help="write a blank answer key to label")
+    gp.add_argument("-n", type=int, default=20, help="how many ads to sample")
+    gp.set_defaults(func=cmd_gold)
 
     args = p.parse_args(argv)
     if not getattr(args, "func", None):
